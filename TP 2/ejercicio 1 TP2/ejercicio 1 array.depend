@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1423365573 source:c:\users\matias\desktop\programacion\ejercicios de la guia\ejercicio 1 array\main.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	"funciones_array.h"
+
+1423365597 c:\users\matias\desktop\programacion\ejercicios de la guia\ejercicio 1 array\funciones_array.h
+

@@ -1,0 +1,17 @@
+# depslib dependency file v1.0
+1423429638 source:c:\users\matias\desktop\programacion\ejercicios de la guia\ejercicio 8\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"funciones.h"
+
+1423432476 c:\users\matias\desktop\programacion\ejercicios de la guia\ejercicio 8\funciones.h
+
+1423432752 source:c:\programación 2015 verano\tp 2\ejercicio 8\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"funciones.h"
+
+1423432476 c:\programación 2015 verano\tp 2\ejercicio 8\funciones.h
+

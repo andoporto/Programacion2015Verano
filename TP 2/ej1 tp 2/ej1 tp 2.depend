@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1423499395 source:c:\programación 2015 verano\tp 2\ej1 tp 2\main.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+

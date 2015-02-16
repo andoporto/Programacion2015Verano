@@ -1,0 +1,133 @@
+Welcome to Git (version 1.9.2-preview20140411)
+
+
+Run 'git help git' to display the help index.
+Run 'git help <command>' to display help for specific commands.
+
+Familia Oporto@FAMILIA-5FC0625 /C/Programación 2015 verano/de c/del practico/200
+6/adicionales (master)
+$ git init
+Initialized empty Git repository in c:/Programación 2015 verano/de c/del practic
+o/2006/adicionales/.git/
+
+Familia Oporto@FAMILIA-5FC0625 /C/Programación 2015 verano/de c/del practico/200
+6/adicionales (master)
+$ add
+sh: add: command not found
+
+Familia Oporto@FAMILIA-5FC0625 /C/Programación 2015 verano/de c/del practico/200
+6/adicionales (master)
+$ git add e2.cpp
+
+Familia Oporto@FAMILIA-5FC0625 /C/Programación 2015 verano/de c/del practico/200
+6/adicionales (master)
+$ git status
+On branch master
+
+Initial commit
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+        new file:   e2.cpp
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        ORDV_10.CPP
+        bcwdef.csm
+        e2.exe
+        e2.ilc
+        e2.ild
+        e2.ilf
+        e2.ils
+        e2.obj
+        e2.tds
+
+
+Familia Oporto@FAMILIA-5FC0625 /C/Programación 2015 verano/de c/del practico/200
+6/adicionales (master)
+$ ls -al ~/.ssh
+total 2
+drwxr-xr-x    5 Familia  Administ        0 Nov 24 16:01 .
+drwxr-xr-x    1 Familia  Administ        0 Feb  9 16:25 ..
+-rw-r--r--    1 Familia  Administ     1675 Nov 22 09:49 id_rsa
+-rw-r--r--    1 Familia  Administ      412 Nov 22 09:49 id_rsa.pub
+-rw-r--r--    1 Familia  Administ      407 Nov 24 16:01 known_hosts
+
+Familia Oporto@FAMILIA-5FC0625 /C/Programación 2015 verano/de c/del practico/200
+6/adicionales (master)
+$ ssh-keygen -t rsa -C "andoporto@gmail.com"
+Generating public/private rsa key pair.
+Enter file in which to save the key (/c/Documents and Settings/Familia Oporto/.s
+sh/id_rsa): clave1
+Enter passphrase (empty for no passphrase):
+Enter same passphrase again:
+Your identification has been saved in clave1.
+Your public key has been saved in clave1.pub.
+The key fingerprint is:
+b0:27:65:e6:7e:cc:ee:04:10:02:a7:8e:96:d6:74:07 andoporto@gmail.com
+
+Familia Oporto@FAMILIA-5FC0625 /C/Programación 2015 verano/de c/del practico/200
+6/adicionales (master)
+$ ssh-agent -s
+SSH_AUTH_SOCK=/tmp/ssh-isUcSr3456/agent.3456; export SSH_AUTH_SOCK;
+SSH_AGENT_PID=3460; export SSH_AGENT_PID;
+echo Agent pid 3460;
+
+Familia Oporto@FAMILIA-5FC0625 /C/Programación 2015 verano/de c/del practico/200
+6/adicionales (master)
+$ clip < ~/.ssh/id_rsa.pub
+sh: clip: command not found
+
+Familia Oporto@FAMILIA-5FC0625 /C/Programación 2015 verano/de c/del practico/200
+6/adicionales (master)
+$ ssh-keygen -t rsa -C "andoporto@gmail.com"
+Generating public/private rsa key pair.
+Enter file in which to save the key (/c/Documents and Settings/Familia Oporto/.s
+sh/id_rsa): clave3
+Enter passphrase (empty for no passphrase):
+Enter same passphrase again:
+Passphrases do not match.  Try again.
+Enter passphrase (empty for no passphrase):
+Enter same passphrase again:
+Your identification has been saved in clave3.
+Your public key has been saved in clave3.pub.
+The key fingerprint is:
+23:b3:f3:67:16:54:af:1e:c4:6d:fb:98:50:83:a2:7d andoporto@gmail.com
+
+Familia Oporto@FAMILIA-5FC0625 /C/Programación 2015 verano/de c/del practico/200
+6/adicionales (master)
+$ ssh-agent -s
+SSH_AUTH_SOCK=/tmp/ssh-EOZBYF2760/agent.2760; export SSH_AUTH_SOCK;
+SSH_AGENT_PID=648; export SSH_AGENT_PID;
+echo Agent pid 648;
+
+Familia Oporto@FAMILIA-5FC0625 /C/Programación 2015 verano/de c/del practico/200
+6/adicionales (master)
+$ ssh-add ~/.ssh/id_rsa
+Could not open a connection to your authentication agent.
+
+Familia Oporto@FAMILIA-5FC0625 /C/Programación 2015 verano/de c/del practico/200
+6/adicionales (master)
+$ ssh-add ~/.ssh/id_rsa
+Could not open a connection to your authentication agent.
+
+Familia Oporto@FAMILIA-5FC0625 /C/Programación 2015 verano/de c/del practico/200
+6/adicionales (master)
+$ ssh-agent -s
+SSH_AUTH_SOCK=/tmp/ssh-xmatsz3740/agent.3740; export SSH_AUTH_SOCK;
+SSH_AGENT_PID=3832; export SSH_AGENT_PID;
+echo Agent pid 3832;
+
+Familia Oporto@FAMILIA-5FC0625 /C/Programación 2015 verano/de c/del practico/200
+6/adicionales (master)
+$ ssh -T git@github.com
+Warning: Permanently added the RSA host key for IP address '192.30.252.130' to t
+he list of known hosts.
+Hi andoporto! You've successfully authenticated, but GitHub does not provide she
+ll access.
+
+Familia Oporto@FAMILIA-5FC0625 /C/Programación 2015 verano/de c/del practico/200
+6/adicionales (master)
+$
