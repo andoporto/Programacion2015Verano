@@ -1,0 +1,595 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0052)http://c.conclase.net/curso/index.php?cap=029#inicio -->
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="es"><head><meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<meta name="description" content="Cursos de C++, POO y programación Windows, API32, CSS, con lista de correo asociada.">
+<meta name="keywords" content="C, C++, C/C++, curso, programación, POO, lista, correo, windows, tutorial, programas, API32, CSS">
+<title>Curso de C++ - Constructores</title>
+
+<link rel="StyleSheet" href="./Curso de C++ - Constructores_files/conclase.css.php" title="Estilo con Clase" media="Screen" type="text/css">
+<link rel="stylesheet" href="./Curso de C++ - Constructores_files/barras.css.php" title="Estilo con Clase" media="screen" type="text/css">
+<link rel="alternate" type="application/atom+xml" title="C con Clase RSS" href="http://c.conclase.net/include/conclase_rss.php">
+<link rel="shortcut icon" href="http://c.conclase.net/include/favicon.ico">
+<script id="__isTpiViewExists"></script><link rel="stylesheet" type="text/css" href="chrome-extension://noebaifjopccondbkcieccphcpijhdne/css/about.css"></head>
+
+<body style="background-position: 0% 34px; " class="backgroundPositionTuned">
+   <div id="headerHolder">
+	<div id="header">
+<div id="subtitulo">&nbsp;C++ con Clase&nbsp;</div>
+<div id="sombra">Curso de C++</div>
+<div id="titulo">Curso de C++</div>
+<div id="estilo">
+<form action="http://c.conclase.net/curso/index.php?ext=estilo&cap=029" method="post">
+<label for="estilo">Estilo:</label>
+<select name="nombre">
+<option value="1">Esmeralda</option>
+<option value="2" selected="selected">Normal</option>
+<option value="3">estilo3</option>
+<option value="4">estilo4</option>
+<option value="5">estilo5</option>
+<option value="6">estilo6</option>
+<option value="7">estilo7</option>
+<option value="8">estilo8</option>
+<option value="9">estilo9</option>
+<option value="10">estilo10</option>
+<option value="13">B/W</option>
+<option value="14">rgb</option>
+<option value="15">Estilo 11</option>
+</select>
+<input type="submit" name="Submit" value="Activar">
+</form>
+</div>
+<div id="visitas"><img src="./Curso de C++ - Constructores_files/contador.php" alt="0006114015"><br>Visitas desde 2000-09-09
+<br><a href="http://c.conclase.net/?id=usrs"><img src="./Curso de C++ - Constructores_files/contador(1).php" alt="0119" border="0"></a><br>Usuarios en línea</div>
+		<div id="navigation">
+			<ul id="tabs">
+				<li id="tab01" class="taboff"><a href="http://conclase.net/" title="Página de entrada">Con Clase</a></li>
+				<li id="tab02" class="tabon"><a href="http://c.conclase.net/" title="C ++ con Clase">C++</a></li>
+				<li id="tab03" class="taboff"><a href="http://winapi.conclase.net/" title="Win API 32 con Clase">Win API 32</a></li>
+				<li id="tab04" class="taboff"><a href="http://html.conclase.net/" title="HTML y CSS con Clase">HTML y CSS</a></li>
+				<li id="tab05" class="taboff"><a href="http://graficos.conclase.net/" title="Gráficos con Clase">Gráficos</a></li>
+				<li id="tab06" class="taboff"><a href="http://mysql.conclase.net/" title="MySQL con Clase">MySQL</a></li>
+				<li id="tab07" class="taboff"><a href="http://articulos.conclase.net/" title="Artículos con Clase">Artículos</a></li>
+				<li id="tab08" class="taboff"><a href="http://listas.conclase.net/" title="Listas de correo con Clase">Listas</a></li>
+			</ul>
+		</div>
+	</div>
+</div>
+		<div id="navigationBarra" style="top: 90px !important; " class="SkipMeIAmAlradyAbsolutePushed">
+			<ul id="tabsBarraC">
+          <li id="tabBarra01"><a href="http://c.conclase.net/curso/index.php?cap=028#inicio" title="Cap ant">&lt;&lt;</a></li>
+          <li id="tabBarra02"><a href="http://c.conclase.net/curso/index.php?cap=028#inicio" title="Pág ant">&lt;</a></li>
+          <li id="tabBarra03"><a href="http://c.conclase.net/curso/index.php?cap=030#inicio" title="Pág sig">&gt;</a></li>
+          <li id="tabBarra04"><a href="http://c.conclase.net/curso/index.php?cap=030#inicio" title="Cap sig">&gt;&gt;</a></li>
+			</ul>
+			<ul id="tabsBarraL">
+          <li id="tabBarra05"><a href="http://c.conclase.net/curso/#inicio" title="Curso">Curso</a></li>
+          <li id="tabBarra06"><a href="http://c.conclase.net/?id=listacorreo#inicio" title="Preguntas">Info</a></li>
+          <li id="tabBarra07"><a href="http://c.conclase.net/librerias/#inicio" title="Bibliotecas ANSI C">Bibliotecas</a></li>
+          <li id="tabBarra08"><a href="http://c.conclase.net/curso/?cap=tabla#inicio" title="Tabla de contenido">Tabla</a></li>
+          <li id="tabBarra09"><a href="http://c.conclase.net/curso/?ext=comentario&cap=029#inicio" title="Insertar comentario">Comentario</a></li>
+			</ul>
+		</div>
+<div id="cuerpo">
+<!-- Parte izquierda -->
+<div id="izquierda">
+<!-- Menú -->
+<div id="menu">
+<ul> <!-- capítulos -->
+<li><a href="http://c.conclase.net/curso/index.php?cap=000#inicio" title="Introducción"><span class="numero">&nbsp;</span>Introducción</a></li>
+<li><a href="http://c.conclase.net/curso/index.php?cap=001#inicio" title="Toma de contacto"><span class="numero">1 </span>Toma de contacto</a></li>
+<li><a href="http://c.conclase.net/curso/index.php?cap=002#inicio" title="Tipos de variables I "><span class="numero">2 </span>Tipos de variables I </a></li>
+<li><a href="http://c.conclase.net/curso/index.php?cap=003#inicio" title="Funciones I: Declaración y definición"><span class="numero">3 </span>Funciones I</a></li>
+<li><a href="http://c.conclase.net/curso/index.php?cap=004#inicio" title="Operadores I"><span class="numero">4 </span>Operadores I</a></li>
+<li><a href="http://c.conclase.net/curso/index.php?cap=005#inicio" title="Sentencias"><span class="numero">5 </span>Sentencias</a></li>
+<li><a href="http://c.conclase.net/curso/index.php?cap=006#inicio" title="Declaración de variables"><span class="numero">6 </span>Declaración de variables</a></li>
+<li><a href="http://c.conclase.net/curso/index.php?cap=007#inicio" title="Normas para la notación"><span class="numero">7 </span>Notación</a></li>
+<li><a href="http://c.conclase.net/curso/index.php?cap=008#inicio" title="Cadenas de caracteres"><span class="numero">8 </span>Cadenas de caracteres</a></li>
+<li><a href="http://c.conclase.net/curso/index.php?cap=009#inicio" title="Conversión de tipos"><span class="numero">9 </span>Conversión de tipos</a></li>
+<li><a href="http://c.conclase.net/curso/index.php?cap=010#inicio" title="Tipos de variables II: Arrays"><span class="numero">10 </span>Variables II: Arrays</a></li>
+<li><a href="http://c.conclase.net/curso/index.php?cap=011#inicio" title="Tipos de objetos III: Estructuras"><span class="numero">11 </span>Objetos III: Estructuras</a></li>
+<li><a href="http://c.conclase.net/curso/index.php?cap=012#inicio" title="Tipos de objetos IV: Punteros 1"><span class="numero">12 </span>Objetos IV: Punteros 1</a></li>
+<li><a href="http://c.conclase.net/curso/index.php?cap=013#inicio" title="Operadores II: Más operadores"><span class="numero">13 </span>Operadores II</a></li>
+<li><a href="http://c.conclase.net/curso/index.php?cap=014#inicio" title="Operadores III: Precedencia"><span class="numero">14 </span>Oper III: Precedencia</a></li>
+<li><a href="http://c.conclase.net/curso/index.php?cap=015#inicio" title="Funciones II: Parámetros por valor y por referencia"><span class="numero">15 </span>Funcs II: valor y referencia</a></li>
+<li><a href="http://c.conclase.net/curso/index.php?cap=016#inicio" title="Tipos de variables V: Uniones"><span class="numero">16 </span>Variables V: Uniones</a></li>
+<li><a href="http://c.conclase.net/curso/index.php?cap=017#inicio" title="Tipos de variables VI: Punteros 2"><span class="numero">17 </span>Variables VI: Punteros 2</a></li>
+<li><a href="http://c.conclase.net/curso/index.php?cap=018#inicio" title="Operadores IV: Más operadores "><span class="numero">18 </span>Operadores IV</a></li>
+<li><a href="http://c.conclase.net/curso/index.php?cap=019#inicio" title="Definición de tipos, tipos derivados"><span class="numero">19 </span>Definición de tipos</a></li>
+<li><a href="http://c.conclase.net/curso/index.php?cap=020#inicio" title="Funciones III: más cosas"><span class="numero">20 </span>Funciones III: más cosas</a></li>
+<li><a href="http://c.conclase.net/curso/index.php?cap=021#inicio" title="Funciones IV: Sobrecarga"><span class="numero">21 </span>Funciones IV: Sobrecarga</a></li>
+<li><a href="http://c.conclase.net/curso/index.php?cap=022#inicio" title="Operadores V: Operadores sobrecargados"><span class="numero">22 </span>Operadores V: Sobrecarga</a></li>
+<li><a href="http://c.conclase.net/curso/index.php?cap=023#inicio" title="El preprocesador"><span class="numero">23 </span>El preprocesador</a></li>
+<li><a href="http://c.conclase.net/curso/index.php?cap=024#inicio" title="Funciones V: Recursividad"><span class="numero">24 </span>Funciones V: Recursividad</a></li>
+<li><a href="http://c.conclase.net/curso/index.php?cap=025#inicio" title="Variables VII: Tipos de almacenamiento"><span class="numero">25 </span>Vbls VII: Almacenamiento</a></li>
+<li><a href="http://c.conclase.net/curso/index.php?cap=026#inicio" title="Espacios con nombre"><span class="numero">26 </span>Espacios con nombre</a></li>
+<li><a href="http://c.conclase.net/curso/index.php?cap=027#inicio" title="Clases I: definiciones"><span class="numero">27 </span>Clases I: definiciones</a></li>
+<li><a href="http://c.conclase.net/curso/index.php?cap=028#inicio" title="Declaración de una clase"><span class="numero">28 </span>Declaración de una clase</a></li>
+<li><a href="./Curso de C++ - Constructores_files/Curso de C++ - Constructores.htm" title="Constructores"><span class="numero">29 </span>Constructores</a>
+<ul> <!-- Niv0 -->
+<li><a href="http://c.conclase.net/curso/index.php?cap=029#P29_DEFECTO" title="Constructor por defecto">Constructor por defecto</a></li>
+<li><a href="http://c.conclase.net/curso/index.php?cap=029#P29_INICIAL" title="Inicialización de objetos">Inicialización de objetos</a></li>
+<li><a href="http://c.conclase.net/curso/index.php?cap=029#P29_SOBRECARGA" title="Sobrecarga de constructores">Sobrecargar constructores</a></li>
+<li><a href="http://c.conclase.net/curso/index.php?cap=029#P29_ARGDEF" title="Constructores con argumentos por defecto">Argumentos por defecto</a></li>
+<li><a href="http://c.conclase.net/curso/index.php?cap=029#P29_ASIGNACION" title="Asignación de objetos">Asignación de objetos</a></li>
+<li><a href="http://c.conclase.net/curso/index.php?cap=029#P29_COPIA" title="Constructor copia">Constructor copia</a></li>
+</ul><!-- Niv1 -->
+</li>
+<li><a href="http://c.conclase.net/curso/index.php?cap=030#inicio" title="Destructores"><span class="numero">30 </span>Destructores</a></li>
+<li><a href="http://c.conclase.net/curso/index.php?cap=031#inicio" title="El puntero this"><span class="numero">31 </span>El puntero this</a></li>
+<li><a href="http://c.conclase.net/curso/index.php?cap=032#inicio" title="Sistema de protección"><span class="numero">32 </span>Sistema de protección</a></li>
+<li><a href="http://c.conclase.net/curso/index.php?cap=033#inicio" title="Modificadores para miembros"><span class="numero">33 </span>Modificadores</a></li>
+<li><a href="http://c.conclase.net/curso/index.php?cap=034#inicio" title="Más sobre las funciones"><span class="numero">34 </span>Más sobre las funciones</a></li>
+<li><a href="http://c.conclase.net/curso/index.php?cap=035#inicio" title="Operadores sobrecargados"><span class="numero">35 </span>Operadores sobrecargados</a></li>
+<li><a href="http://c.conclase.net/curso/index.php?cap=036#inicio" title="Herencia"><span class="numero">36 </span>Herencia</a></li>
+<li><a href="http://c.conclase.net/curso/index.php?cap=037#inicio" title="Funciones virtuales"><span class="numero">37 </span>Funciones virtuales</a></li>
+<li><a href="http://c.conclase.net/curso/index.php?cap=038#inicio" title="Derivación múltiple"><span class="numero">38 </span>Derivación múltiple</a></li>
+<li><a href="http://c.conclase.net/curso/index.php?cap=039#inicio" title="Trabajar con ficheros"><span class="numero">39 </span>Trabajar con ficheros</a></li>
+<li><a href="http://c.conclase.net/curso/index.php?cap=040#inicio" title="Plantillas"><span class="numero">40 </span>Plantillas</a></li>
+<li><a href="http://c.conclase.net/curso/index.php?cap=041#inicio" title="Punteros a miembros de clases o estructuras"><span class="numero">41 </span>Punteros a miembros</a></li>
+<li><a href="http://c.conclase.net/curso/index.php?cap=042#inicio" title="Castings en C++"><span class="numero">42 </span>Castings en C++</a></li>
+<li><a href="http://c.conclase.net/curso/index.php?cap=043#inicio" title="Manejo de excepciones"><span class="numero">43 </span>Manejo de excepciones</a></li>
+<li><a href="http://c.conclase.net/curso/index.php?cap=900#inicio" title="Codificación ASCII"><span class="numero">A </span>Codificación ASCII</a></li>
+<li><a href="http://c.conclase.net/curso/index.php?cap=901#inicio" title="Palabras reservadas"><span class="numero">B </span>Palabras reservadas</a></li>
+<li><a href="http://c.conclase.net/curso/index.php?cap=902#inicio" title="Bibliotecas estándar"><span class="numero">C </span>Bibliotecas estándar</a></li>
+<li><a href="http://c.conclase.net/curso/index.php?cap=903#inicio" title="Trigrafos y símbolos alternativos"><span class="numero">D </span>Trigrafos y símbolos alt.</a></li>
+<li><a href="http://c.conclase.net/curso/index.php?cap=904#inicio" title="Streams"><span class="numero">E </span>Streams</a></li>
+</ul> <!-- capítulos -->
+</div>
+</div> <!-- izquierda -->
+<div id="derecha">
+<a name="inicio"></a>
+<div class="texto">
+<h1>29 Constructores</h1>
+<div class="titulo_flecha"><a href="./Curso de C++ - Constructores_files/Curso de C++ - Constructores.htm">^</a></div>
+
+<p>Los constructores son funciones miembro especiales que sirven para 
+  inicializar un objeto de una determinada clase al mismo tiempo que se 
+  declara.</p>
+<p>Los constructores son especiales por varios motivos:</p>
+<ul>
+	<li>Tienen el mismo nombre que la clase a la que pertenecen.</li>
+	<li>No tienen tipo de retorno, y por lo tanto no retornan ningún valor.</li>
+	<li>No pueden ser heredados.</li>
+	<li>Por último, deben ser públicos, no tendría ningún sentido declarar un 
+		constructor como privado, ya que siempre se usan desde el exterior de la 
+		clase, ni tampoco como protegido, ya que no puede ser heredado.</li>
+</ul>
+<p>Sintaxis:</p>
+<pre class="sintaxis"><b>class</b> &lt;identificador de clase&gt; {
+    <b>public</b>:
+        &lt;identificador de clase&gt;(&lt;lista de parámetros&gt;) [: &lt;lista de constructores&gt;] {
+            &lt;código del constructor&gt;
+        }
+        ...
+}</pre>
+<p>Añadamos un constructor a nuestra clase pareja:</p>
+<pre class="ejemplo"><span class="prp">#include</span> &lt;iostream&gt; 
+<span class="cpp">using</span> <span class="cpp">namespace</span> std;
+ 
+<span class="cpp">class</span> pareja {
+   <span class="cpp">public</span>:
+      // Constructor
+      pareja(<span class="cpp">int</span> a2, <span class="cpp">int</span> b2);
+      // Funciones miembro de la clase "pareja"
+      <span class="cpp">void</span> Lee(<span class="cpp">int</span> &amp;a2, <span class="cpp">int</span> &amp;b2);
+      <span class="cpp">void</span> Guarda(<span class="cpp">int</span> a2, <span class="cpp">int</span> b2);
+   <span class="cpp">private</span>:
+      // Datos miembro de la clase "pareja"
+      <span class="cpp">int</span> a, b; 
+};
+
+pareja::pareja(<span class="cpp">int</span> a2, <span class="cpp">int</span> b2) {
+   a = a2;
+   b = b2;
+}
+
+<span class="cpp">void</span> pareja::Lee(<span class="cpp">int</span> &amp;a2, <span class="cpp">int</span> &amp;b2) {
+   a2 = a;
+   b2 = b;
+}
+
+<span class="cpp">void</span> pareja::Guarda(<span class="cpp">int</span> a2, <span class="cpp">int</span> b2) {
+   a = a2;
+   b = b2;
+}
+
+<span class="cpp">int</span> main() {
+   pareja par1(12, 32);
+   <span class="cpp">int</span> x, y;
+   
+   par1.Lee(x, y);
+   cout &lt;&lt; "Valor de par1.a: " &lt;&lt; x &lt;&lt; endl;
+   cout &lt;&lt; "Valor de par1.b: " &lt;&lt; y &lt;&lt; endl;
+   
+   <span class="cpp">return</span> 0;
+}
+</pre>
+
+<p>Si no definimos un contructor el compilador creará uno por defecto, sin parámetros, 
+	que	no hará absolutamente nada. Los datos miembros del los objetos declarados
+	en el programa contendrán basura.</p>
+<p>Si una clase posee constructor, será llamado siempre que se declare 
+  un objeto de esa clase. Si ese constructor requiere argumentos, como en
+  este caso, es obligatorio suministrarlos.</p>
+<p>Por ejemplo, las siguientes declaraciones son ilegales:</p>
+<pre class="ejemplo">pareja par1;
+pareja par1();
+</pre>
+
+<p>La primera porque el constructor de "pareja" requiere dos parámetros, y
+  no se suministran.</p>
+<p>La segunda es ilegal por otro motivo más complejo. Aunque existiese un
+  constructor sin parámetros, no se debe usar esta forma para declarar
+  el objeto, ya que el compilador lo considera como la declaración de un
+  prototipo de una función que devuelve un objeto de tipo "pareja" y no
+  admite parámetros.</p>
+<p>Cuando se use un constructor sin parámetros para
+  declarar un objeto no se deben escribir los paréntesis.</p>
+<p>Y las siguientes declaraciones son válidas:</p>
+<pre class="ejemplo">pareja par1(12,43);
+pareja par2(45,34);
+</pre>
+
+<a name="P29_DEFECTO"></a></div>
+<div class="texto">
+<h2>Constructor por defecto</h2>
+<div class="titulo_flecha"><a href="./Curso de C++ - Constructores_files/Curso de C++ - Constructores.htm">^</a></div>
+
+<p>Cuando no especifiquemos un constructor para una clase, el compilador crea 
+  uno por defecto sin argumentos. Por eso el ejemplo del capítulo anterior 
+  funcionaba correctamente. Cuando se crean objetos locales, los datos miembros 
+  no se inicializarían, contendrían la "basura" que hubiese 
+  en la memoria asignada al objeto. Si se trata de objetos globales, los datos 
+  miembros se inicializan a cero.</p>
+<p>Para declarar objetos usando el constructor por defecto o un constructor que 
+  hayamos declarado sin parámetros no se debe usar el paréntesis:</p>
+<pre class="ejemplo">pareja par2();
+</pre>
+
+<p>Se trata de un error frecuente cuando se empiezan a usar clases, lo correcto
+  es declarar el objeto sin usar los paréntesis:</p>
+<pre class="ejemplo">pareja par2;
+</pre>
+
+<a name="P29_INICIAL"></a></div>
+<div class="texto">
+<h2>Inicialización de objetos</h2>
+<div class="titulo_flecha"><a href="./Curso de C++ - Constructores_files/Curso de C++ - Constructores.htm">^</a></div>
+
+<p>Hay un modo específico para inicializar los datos miembros de los objetos en 
+  los constructores, que consiste en invocar los constructores de los objetos
+  miembro antes de las llaves de la definición del constructor.</p>
+<p>En C++ incluso las variables de tipos básicos como <b>int</b>, <b>char</b> o <b>float</b>
+  son objetos. En C++ cualquier variable (u objeto) tiene, al menos un constructor,
+  el constructor por defecto, incluso aquellos que son de un tipo básico.</p>
+<p>Sólo los constructores de las clases admiten inicializadores. Cada inicializador consiste 
+  en el nombre de la variable miembro a inicializar, seguida de la expresión 
+  que se usará para inicializarla entre paréntesis. Los inicializadores 
+  se añadirán a continuación del paréntesis cerrado 
+  que encierra a los parámetros del constructor, antes del cuerpo del constructor 
+  y separado del paréntesis por dos puntos ":".</p>
+<p>Por ejemplo, en el caso anterior de la clase "pareja" teníamos este constructor:</p>
+<pre class="ejemplo">pareja::pareja(<span class="cpp">int</span> a2, <span class="cpp">int</span> b2) {
+   a = a2;
+   b = b2;
+}
+</pre>
+
+<p>Podemos (y debemos) sustituir ese constructor por este otro:</p>
+<pre class="ejemplo">pareja::pareja(<span class="cpp">int</span> a2, <span class="cpp">int</span> b2) : a(a2), b(b2) {}
+</pre>
+
+<p>Por supuesto, también pueden usarse inicializadores en línea, 
+  dentro de la declaración de la clase.</p>
+<p>Ciertos miembros es obligatorio inicializarlos, ya que no pueden ser 
+  asignados, por ejemplo las constantes o las referencias. Es preferible 
+  usar la inicialización siempre que sea posible en lugar de asignaciones, ya 
+  que frecuentemente, es menos costoso y más predecible inicializar objetos en el 
+  momento de la creación que usar asignaciones.</p>
+<p>Veremos más sobre este tema cuando veamos ejemplos de clases que tienen 
+  como miembros objetos de otras clases.</p>
+<a name="P29_SOBRECARGA"></a></div>
+<div class="texto">
+<h2>Sobrecarga de constructores</h2>
+<div class="titulo_flecha"><a href="./Curso de C++ - Constructores_files/Curso de C++ - Constructores.htm">^</a></div>
+
+<p>Los constructores son funciones, también pueden definirse varios constructores para 
+  cada clase, es decir, el constructor puede sobrecargarse. La única 
+  limitación (como en todos los casos de sobrecarga) es que no pueden declararse 
+  varios constructores con el mismo número y el mismo tipo de argumentos.</p>
+<p>Por ejemplo, añadiremos un constructor adicional a la clase "pareja" 
+  que simule el constructor por defecto:</p>
+<pre class="ejemplo"><span class="cpp">class</span> pareja {
+   <span class="cpp">public</span>:
+      // Constructor
+      pareja(<span class="cpp">int</span> a2, <span class="cpp">int</span> b2) : a(a2), b(b2) {}
+      pareja() : a(0), b(0) {}
+      // Funciones miembro de la clase "pareja"
+      <span class="cpp">void</span> Lee(<span class="cpp">int</span> &amp;a2, <span class="cpp">int</span> &amp;b2);
+      <span class="cpp">void</span> Guarda(<span class="cpp">int</span> a2, <span class="cpp">int</span> b2);
+   <span class="cpp">private</span>:
+      // Datos miembro de la clase "pareja"
+      <span class="cpp">int</span> a, b;
+};
+</pre>
+
+<p>De este modo podemos declarar objetos de la clase pareja especificando los 
+  dos argumentos o ninguno de ellos, en este último caso se inicializarán 
+  los dos datos miembros con cero.</p>
+<a name="P29_ARGDEF"></a></div>
+<div class="texto">
+<h2>Constructores con argumentos por defecto</h2>
+<div class="titulo_flecha"><a href="./Curso de C++ - Constructores_files/Curso de C++ - Constructores.htm">^</a></div>
+
+<p>También pueden asignarse valores por defecto a los argumentos del constructor, 
+  de este modo reduciremos el número de constructores necesarios.</p>
+<p>Para resolver el ejemplo anterior sin sobrecargar el constructor suministraremos 
+  valores por defecto nulos a ambos parámetros:</p>
+<pre class="ejemplo"><span class="cpp">class</span> pareja {
+   <span class="cpp">public</span>:
+      // Constructor
+      pareja(<span class="cpp">int</span> a2=0, <span class="cpp">int</span> b2=0) : a(a2), b(b2) {}
+      // Funciones miembro de la clase "pareja"
+      <span class="cpp">void</span> Lee(<span class="cpp">int</span> &amp;a2, <span class="cpp">int</span> &amp;b2);
+      <span class="cpp">void</span> Guarda(<span class="cpp">int</span> a2, <span class="cpp">int</span> b2);
+   <span class="cpp">private</span>:
+      // Datos miembro de la clase "pareja"
+      <span class="cpp">int</span> a, b; 
+};
+</pre>
+
+<a name="P29_ASIGNACION"></a></div>
+<div class="texto">
+<h2>Asignación de objetos</h2>
+<div class="titulo_flecha"><a href="./Curso de C++ - Constructores_files/Curso de C++ - Constructores.htm">^</a></div>
+
+<p>Probablemente ya lo imaginas, pero la asignación de objetos también 
+  está permitida. Y además funciona como se supone que debe hacerlo, 
+  asignando los valores de los datos miembros.</p>
+<p>Con la definición de la clase del último ejemplo podemos hacer 
+  lo que se ilustra en el siguiente:</p>
+<pre class="ejemplo"><span class="prp">#include</span> &lt;iostream&gt;
+    <span class="cpp">using</span> <span class="cpp">namespace</span> std;
+    
+<span class="cpp">int</span> main() {
+   pareja par1(12, 32), par2;
+   <span class="cpp">int</span> x, y;
+   
+   par2 = par1;
+   par2.Lee(x, y);
+   cout &lt;&lt; "Valor de par2.a: " &lt;&lt; x &lt;&lt; endl;
+   cout &lt;&lt; "Valor de par2.b: " &lt;&lt; y &lt;&lt; endl;
+   
+   <span class="cpp">return</span> 0;
+}
+</pre>
+
+<p>La línea "par2 = par1;" copia los valores de los datos miembros 
+  de par1 en par2.</p>
+<p>En realidad, igual que pasa con los constructores, el compilador crea
+  un operador de asignación por defecto, que copia los valores de todos los
+  datos miembro de un objeto al otro. Veremos más adelante que podemos
+  redefinir ese operador para nuestras clases, si lo consideramos necesario.</p>
+<a name="P29_COPIA"></a></div>
+<div class="texto">
+<h2>Constructor copia</h2>
+<div class="titulo_flecha"><a href="./Curso de C++ - Constructores_files/Curso de C++ - Constructores.htm">^</a></div>
+
+<p>Un constructor de este tipo crea un objeto a partir de otro objeto existente. 
+  Estos constructores sólo tienen un argumento, que es una referencia a 
+  un objeto de su misma clase.</p>
+<p>En general, los constructores copia tienen la siguiente forma para sus prototipos:</p>
+<pre class="sintaxis">tipo_clase::tipo_clase(<b>const</b> tipo_clase &amp;obj);</pre>
+<p>De nuevo ilustraremos esto con un ejemplo y usaremos también "pareja":</p>
+<pre class="ejemplo"><span class="cpp">class</span> pareja {
+   <span class="cpp">public</span>:
+      // Constructor
+      pareja(<span class="cpp">int</span> a2=0, <span class="cpp">int</span> b2=0) : a(a2), b(b2) {}
+      // Constructor copia:
+      pareja(<span class="cpp">const</span> pareja &amp;p);
+
+      // Funciones miembro de la clase "pareja"
+      <span class="cpp">void</span> Lee(<span class="cpp">int</span> &amp;a2, <span class="cpp">int</span> &amp;b2);
+      <span class="cpp">void</span> Guarda(<span class="cpp">int</span> a2, <span class="cpp">int</span> b2);
+   <span class="cpp">private</span>:
+      // Datos miembro de la clase "pareja"
+      <span class="cpp">int</span> a, b; 
+};
+
+// Definición del constructor copia:
+pareja::pareja(<span class="cpp">const</span> pareja &amp;p) : a(p.a), b(p.b) {}
+</pre>
+
+<p>Para crear objetos usando el constructor copia se procede como sigue:</p>
+<pre class="ejemplo"><span class="cpp">int</span> main() {
+   pareja par1(12, 32)
+   pareja par2(par1); // Uso del constructor copia: par2 = par1
+   <span class="cpp">int</span> x, y;
+   
+   par2.Lee(x, y);
+   cout &lt;&lt; "Valor de par2.a: " &lt;&lt; x &lt;&lt; endl;
+   cout &lt;&lt; "Valor de par2.b: " &lt;&lt; y &lt;&lt; endl;
+
+   <span class="cpp">return</span> 0;
+}
+</pre>
+
+<p>Aunque pueda parecer confuso, el constructor copia en otras circunstancias:</p>
+<pre class="ejemplo"><span class="cpp">int</span> main() {
+   pareja par1(12, 32)
+   pareja par2 = par1; // Uso del constructor copia
+...
+</pre>
+
+<p>En este caso se usa el constructor copia porque el objeto par2 se inicializa
+  al mismo tiempo que se declara, por lo tanto, el compilador busca un constructor
+  que tenga como parámetro un objeto del tipo de par1, es decir, busca un constructor
+  copia.</p>
+<p>Tanto es así que se invoca al constructor copia aunque el valor a la derecha del
+  signo igual no sea un objeto de tipo pareja.</p>
+<p>Disponemos de un constructor con valores por defecto para los parámetros, así que
+  intentemos hacer esto:</p>
+<pre class="ejemplo"><span class="cpp">int</span> main() {
+   pareja par2 = 14; // Uso del constructor copia
+...
+</pre>
+
+<p>Ahora el compilador intenta crear el objeto par2 usando el constructor copia sobre
+  el objeto 14. Pero 14 no es un objeto de la clase pareja, de modo que el compilador
+  usa el constructor de pareja con el valor 14, y después usa el constructor copia.</p>
+<p>También para cualquier clase, si no se especifica ningún constructor 
+  copia, el compilador crea uno por defecto, y su comportamiento es exactamente 
+  el mismo que el del definido en el ejemplo anterior. Para la mayoría 
+  de los casos esto será suficiente, pero en muchas ocasiones  
+  necesitaremos redefinir el constructor copia.</p>
+</div>
+<div class="texto">
+<h3>Comentarios de los usuarios (4)</h3>
+
+<div id="autor"><b>Joaquín</b><br>2011-10-15 17:23:50</div>
+<div id="usertxt"><p>Tengo una duda enorme con delegaciones de constructores, que veo (por lo que vengo leyendo en éste excelente curso) no está tratado, solamente sobrecarga. Desde C++11 que se permite la delegación de constructores (similar a Java al que estoy más que acostumbrado). Pero tengo errores "insalvables" que no logro comprender.</p>
+<p>Tengo una clase template que tiene ésta forma:</p>
+<pre class="ejemplo">template&lt;class T, int ROWS, int COLUMNS&gt;
+class Matrix {
+public:
+    //Constructor para llenar de ceros la matriz
+    Matrix() :
+            mat(ROWS, vector(COLUMNS, 0)) {
+    }
+    //Constructor copia
+    Matrix(const Matrix&lt;T, ROWS, COLUMNS&gt; &amp;m) :
+            mat(m.mat) {
+    }
+
+...
+
+protected:
+    vector&lt;vector&lt;T&gt; &gt; mat;
+};
+</pre>
+<p>De esa clase que funciona bastante bien (es segura, en el sentido de que toma todos los errores en tiempo de compilación). Derivan 3 clases que especializan ese template. Dejo sólo los headers:</p>
+<pre class="ejemplo">class RotationMatrix : public Matrix&lt;double, 3, 3&gt; { ... }
+class HomogeneousMatrix : public Matrix&lt;double, 4, 4&gt; { ... }
+class HomogeneousVector : public Matrix&lt;double, 4, 1&gt; { ... }
+</pre>
+<p>En particular el constructor de HomogeneousMatrix no me deja inicializar el miembro 'mat' porque dice que "HomogeneousMatrix no tiene un miembro 'mat'". Sin embargo en las otras clases lo inicializo de la misma manera sin problemas. ¿Alguna idea?</p>
+</div>
+<div id="autor"><b>Steven R. Davidson</b><br>2011-10-15 19:34:29</div>
+<div id="usertxt"><p>Hola Joaquín,</p>
+<p>Primeramente, no hablamos de la delegación de constructores, pero sí existe algo parecido en el estándar anterior de C++ (C++ 98). Sin embargo, se suele usar para invocar a constructores de las clases base, como se explica en el capítulo 38 ( http://c.conclase.net/curso/?cap=036b#038_constructores ).</p>
+<p>En cuanto a tu código, la verdad es que no he tenido muchos problemas con ello - bueno, la parte que nos presentas. El único error importante era el uso de 'vector' en la lista inicializadora del constructor sin parámetros. Escribes:</p>
+<pre class="ejemplo">template&lt; class T, int ROWS, int COLUMNS &gt;
+class Matrix
+{
+public:
+  //Constructor para llenar de ceros la matriz
+  Matrix() : mat(ROWS, vector(COLUMNS, 0)) {}
+...
+protected:
+  vector&lt; vector&lt;T&gt; &gt; mat;
+};
+</pre>
+<p>El compilador me lanza un error con 'vector' en la línea:</p>
+<pre class="ejemplo">mat(ROWS, vector(COLUMNS, 0))
+</pre>
+<p>Esto es porque no sabe qué tipo usar para 'vector'.</p>
+<p>El código corregido es:</p>
+<pre class="ejemplo">template&lt; typename T, int ROWS, int COLUMNS &gt;
+class Matrix
+{
+public:
+  //Constructor para llenar de ceros la matriz
+  Matrix() : mat(ROWS, vector&lt;T&gt;(COLUMNS, 0)) {}
+...
+protected:
+  vector&lt; vector&lt;T&gt; &gt; mat;
+};
+</pre>
+<p>Ahora bien, en cuanto a problemas de no poder encontrar 'mat' dentro de 'HomogeneousVector', no te puedo decir sin ver más código fuente. Hice algunas pruebas y no he tenido problemas. Por ejemplo,</p>
+<pre class="ejemplo">class HomogeneousVector : public Matrix&lt;double, 4, 1&gt;
+{
+public:
+  // Para no escribir tanto y ser más legible
+  typedef Matrix&lt;double, 4, 1&gt; base;
+
+  HomogeneousVector() : base()
+  {
+    cout &lt;&lt; mat.size() &lt;&lt; endl;
+  }
+
+  HomogeneousVector( const HomogeneousVector &amp;ref ) : base(ref)
+  {
+    cout &lt;&lt; mat.size() &lt;&lt; endl;
+  }
+};
+</pre>
+<p>Espero que esto te oriente un poco.</p>
+<p>Steven</p>
+</div>
+<div id="autor"><b>Anónimo</b><br>2011-10-18 18:23:17</div>
+<div id="usertxt"><p>@Steven: Muchísimas gracias por la respuesta. Finalmente lo resolví a la antigua, con una combinación de typedefs (por problemas con el template de Matriz&lt;T, R, C&gt; en la especialización) y parámetros por defecto. Pasa que es una práctica muy común en Java (que lo tengo más a la mano) el usar delegaciones de constructores para dar parámetros por defecto.</p>
+<p>Lo de la inicialización del vector me había saltado ya y se solucionó fácil.</p>
+<p>En otro momento experimentaré un poco más, ahora estoy apretado con éste programa que tiene que funcionar a como dé lugar.</p>
+<p>Mil gracias y realmente una felicitación por el curso. es un material de consulta imprescindible. De poder arreglar la muestra de algunos códigos (que aparecen mal, con slashes que ocultan inicializaciones muchas veces) se volvería perfecto.</p>
+</div>
+<div id="autor"><b>Morillas</b><br>2011-10-21 22:51:19</div>
+<div id="usertxt"><p>Sobre constructores privados:</p>
+<p>Existen muchos diseños donde subyace una motivación razonable para declarar un constructor privado o protegido. Dos ejemplos:</p>
+<p>En ocasiones es útil hacer que una interfaz defina una cierta implementación por defecto para todas sus funciones miembro, de tal manera que las subclases redefinan sólo aquellas que les interese, pero al no declarar la interfaz como abstracta se corre el riesgo de que los clientes la instancien. Utilizar un constructor protegido tiene sentido. Ejemplo:</p>
+<pre class="ejemplo">//Interfaz A que por lo que sea queremos que se comporte como si fuera abstracta.
+class A {
+public:
+	virtual void metodo_1( ){ //implementacion por defecto } 
+	virtual void metodo_2( ){ //implementacion por defecto } 
+	...
+	virtual void metodo_n( ){ { //implementacion por defecto } 
+protected:
+	A( );
+}
+	
+class B : public A {
+	...
+	void metodo_i{ //redefinición del metodo }
+	...
+}
+</pre>
+<p>Un caso típico de esto es dejar las implementaciones por defecto vacías, de forma que sólo tengamos que redefinir las funciones miembro que nos interesen (en contraposición a declararlas como virtuales puras, que exigirán, más tarde o más temprano, una implementación en todas las subclases finales).</p>
+<p>Otro ejemplo típico del uso privado de contructores puede verse en el patrón Singleton, donde se pretende garantizar que sólo haya una instacia de una determinada clase (por ejemplo, es posible que en un programa sólo deba haber un único objeto "Sistema","Pantalla","DespachadorDeEventos"...) Ejemplo:</p>
+<pre class="ejemplo">ClaseUnica{
+public:
+	static ClaseUnica* getInstancia( );
+	void metodo_1( );
+	...
+	void metodo_n( );
+private:
+	ClaseUnica( );
+	static ClaseUnica *_unicaInstancia; 
+}
+//------------------------------------------Implementación:
+ClaseUnica::_unicaInstancia = 0;
+	
+ClaseUnica* ClaseUnica::getInstancia( ){
+	if( !_unicaIntancia )
+		_unicaIntacia = new ClaseUnica;	//PERMITIDO, ya que estamos dentro de ClaseUnica. (A esto se le llama "inicialización perezosa").
+	return _unicaIntancia;
+}
+//Resto de la implementación...
+	
+//------------------------------------------Uso:
+ClaseUnica *miObjetoUnico = new ClaseUnica; //ERROR. ClaseUnica( ) es privado!
+ClaseUnica *miObjetoUnico = ClaseUnica::getInstancia( );	//Ahora sí.
+ClaseUnica *miOtroObjetoUnico = ClaseUnica::getInstancia( ); //miObjetoUnico y miOtroObjetoUnico son en realidad el mismo objeto.
+miObjetoUnico-&gt;metodo_i();
+</pre>
+<p>Se puede cambiar la visibilidad del constructor de privado a protegido y permitir la especialización de ClaseUnica, aunque personalmente, es un enfoque que a mí no me gusta.</p>
+<p>En conclusión, hay casi tantos diseños de clases donde declarar un contructor privado o protegido tenga todo el sentido del mundo como se nos ocurran.</p>
+<p>Un saludo y felicidades por la página.</p></div>
+</div>
+</div>
+</div>
+<div id="pie">
+<p id="copyright">© Enero de 2001, Salvador Pozo, <a href="mailto:salvador@conclase.net">salvador@conclase.net</a></p>
+</div>
+
+
+<div class="SkipThisFixedPosition top-iframe-wrapper" style="width: 100%; height: 34px; position: fixed; top: 0px !important; left: 0px; z-index: 99997; "><iframe style="width:100%;height:34px;top:0px;left:0px;" src="./Curso de C++ - Constructores_files/container.htm" scrolling="no" class="toolbarContainer" frameborder="0px" id="CWTBiframe0"></iframe></div><div id="-chrome-auto-translate-plugin-dialog" style="opacity: 1 !important; background-image: initial !important; background-attachment: initial !important; background-origin: initial !important; background-clip: initial !important; background-color: transparent !important; padding-top: 0px !important; padding-right: 0px !important; padding-bottom: 0px !important; padding-left: 0px !important; margin-top: 0px !important; margin-right: 0px !important; margin-bottom: 0px !important; margin-left: 0px !important; position: absolute !important; top: 0px; left: 0px; overflow-x: visible !important; overflow-y: visible !important; z-index: 999999 !important; text-align: left !important; display: none; background-position: initial initial !important; background-repeat: initial initial !important; "><div style="max-width: 300px !important;color: #fafafa !important;opacity: 0.8 !important;border-color: #000000 !important;border-width: 0px !important;-webkit-border-radius: 10px !important;background-color: #363636 !important;font-size: 16px !important;padding: 8px !important;overflow: visible !important;background-image: -webkit-gradient(linear, left top, right bottom, color-stop(0%, #000), color-stop(50%, #363636), color-stop(100%, #000));z-index: 999999 !important;text-align: left  !important;"><div class="translate"></div><div class="additional"></div></div><img src="./Curso de C++ - Constructores_files/small-logo.png" onclick="document.location.href=&#39;http://translate.google.com/&#39;;" style="position: absolute !important; z-index: -1 !important; right: 1px !important; top: -20px !important; cursor: pointer !important;-webkit-border-radius: 20px; background-color: rgba(200, 200, 200, 0.3) !important; padding: 3px 5px 0 !important; margin: 0 !important;"></div><div id="mainContainer_CTID"><div class="fixedDiv SkipThisFixedPosition UrlGadgetsDiv" style="position: fixed; left: 0px; top: 34px !important; z-index: 2147483640; "></div><div class="fixedDiv SkipThisFixedPosition GeneralGadgetsDiv" style="position: fixed; left: 0px; top: 34px !important; z-index: 2147483640; width: 100%; "></div></div></body><style type="text/css" id="CWToolbarStyle">html { padding-top: 34px !important;}</style></html>

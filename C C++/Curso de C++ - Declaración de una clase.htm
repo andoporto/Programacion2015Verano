@@ -1,0 +1,283 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0052)http://c.conclase.net/curso/index.php?cap=028#inicio -->
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="es"><head><meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<meta name="description" content="Cursos de C++, POO y programación Windows, API32, CSS, con lista de correo asociada.">
+<meta name="keywords" content="C, C++, C/C++, curso, programación, POO, lista, correo, windows, tutorial, programas, API32, CSS">
+<title>Curso de C++ - Declaración de una clase</title>
+
+<link rel="StyleSheet" href="./Curso de C++ - Declaración de una clase_files/conclase.css.php" title="Estilo con Clase" media="Screen" type="text/css">
+<link rel="stylesheet" href="./Curso de C++ - Declaración de una clase_files/barras.css.php" title="Estilo con Clase" media="screen" type="text/css">
+<link rel="alternate" type="application/atom+xml" title="C con Clase RSS" href="http://c.conclase.net/include/conclase_rss.php">
+<link rel="shortcut icon" href="http://c.conclase.net/include/favicon.ico">
+<script id="__isTpiViewExists"></script><link rel="stylesheet" type="text/css" href="chrome-extension://noebaifjopccondbkcieccphcpijhdne/css/about.css"></head>
+
+<body style="background-position: 0% 34px; " class="backgroundPositionTuned">
+   <div id="headerHolder">
+	<div id="header">
+<div id="subtitulo">&nbsp;C++ con Clase&nbsp;</div>
+<div id="sombra">Curso de C++</div>
+<div id="titulo">Curso de C++</div>
+<div id="estilo">
+<form action="http://c.conclase.net/curso/index.php?ext=estilo&cap=028" method="post">
+<label for="estilo">Estilo:</label>
+<select name="nombre">
+<option value="1">Esmeralda</option>
+<option value="2" selected="selected">Normal</option>
+<option value="3">estilo3</option>
+<option value="4">estilo4</option>
+<option value="5">estilo5</option>
+<option value="6">estilo6</option>
+<option value="7">estilo7</option>
+<option value="8">estilo8</option>
+<option value="9">estilo9</option>
+<option value="10">estilo10</option>
+<option value="13">B/W</option>
+<option value="14">rgb</option>
+<option value="15">Estilo 11</option>
+</select>
+<input type="submit" name="Submit" value="Activar">
+</form>
+</div>
+<div id="visitas"><img src="./Curso de C++ - Declaración de una clase_files/contador.php" alt="0006114011"><br>Visitas desde 2000-09-09
+<br><a href="http://c.conclase.net/?id=usrs"><img src="./Curso de C++ - Declaración de una clase_files/contador(1).php" alt="0117" border="0"></a><br>Usuarios en línea</div>
+		<div id="navigation">
+			<ul id="tabs">
+				<li id="tab01" class="taboff"><a href="http://conclase.net/" title="Página de entrada">Con Clase</a></li>
+				<li id="tab02" class="tabon"><a href="http://c.conclase.net/" title="C ++ con Clase">C++</a></li>
+				<li id="tab03" class="taboff"><a href="http://winapi.conclase.net/" title="Win API 32 con Clase">Win API 32</a></li>
+				<li id="tab04" class="taboff"><a href="http://html.conclase.net/" title="HTML y CSS con Clase">HTML y CSS</a></li>
+				<li id="tab05" class="taboff"><a href="http://graficos.conclase.net/" title="Gráficos con Clase">Gráficos</a></li>
+				<li id="tab06" class="taboff"><a href="http://mysql.conclase.net/" title="MySQL con Clase">MySQL</a></li>
+				<li id="tab07" class="taboff"><a href="http://articulos.conclase.net/" title="Artículos con Clase">Artículos</a></li>
+				<li id="tab08" class="taboff"><a href="http://listas.conclase.net/" title="Listas de correo con Clase">Listas</a></li>
+			</ul>
+		</div>
+	</div>
+</div>
+		<div id="navigationBarra">
+			<ul id="tabsBarraC">
+          <li id="tabBarra01"><a href="http://c.conclase.net/curso/index.php?cap=027#inicio" title="Cap ant">&lt;&lt;</a></li>
+          <li id="tabBarra02"><a href="http://c.conclase.net/curso/index.php?cap=027#inicio" title="Pág ant">&lt;</a></li>
+          <li id="tabBarra03"><a href="http://c.conclase.net/curso/index.php?cap=029#inicio" title="Pág sig">&gt;</a></li>
+          <li id="tabBarra04"><a href="http://c.conclase.net/curso/index.php?cap=029#inicio" title="Cap sig">&gt;&gt;</a></li>
+			</ul>
+			<ul id="tabsBarraL">
+          <li id="tabBarra05"><a href="http://c.conclase.net/curso/#inicio" title="Curso">Curso</a></li>
+          <li id="tabBarra06"><a href="http://c.conclase.net/?id=listacorreo#inicio" title="Preguntas">Info</a></li>
+          <li id="tabBarra07"><a href="http://c.conclase.net/librerias/#inicio" title="Bibliotecas ANSI C">Bibliotecas</a></li>
+          <li id="tabBarra08"><a href="http://c.conclase.net/curso/?cap=tabla#inicio" title="Tabla de contenido">Tabla</a></li>
+          <li id="tabBarra09"><a href="http://c.conclase.net/curso/?ext=comentario&cap=028#inicio" title="Insertar comentario">Comentario</a></li>
+			</ul>
+		</div>
+<div id="cuerpo">
+<!-- Parte izquierda -->
+<div id="izquierda">
+<!-- Menú -->
+<div id="menu">
+<ul> <!-- capítulos -->
+<li><a href="http://c.conclase.net/curso/index.php?cap=000#inicio" title="Introducción"><span class="numero">&nbsp;</span>Introducción</a></li>
+<li><a href="http://c.conclase.net/curso/index.php?cap=001#inicio" title="Toma de contacto"><span class="numero">1 </span>Toma de contacto</a></li>
+<li><a href="http://c.conclase.net/curso/index.php?cap=002#inicio" title="Tipos de variables I "><span class="numero">2 </span>Tipos de variables I </a></li>
+<li><a href="http://c.conclase.net/curso/index.php?cap=003#inicio" title="Funciones I: Declaración y definición"><span class="numero">3 </span>Funciones I</a></li>
+<li><a href="http://c.conclase.net/curso/index.php?cap=004#inicio" title="Operadores I"><span class="numero">4 </span>Operadores I</a></li>
+<li><a href="http://c.conclase.net/curso/index.php?cap=005#inicio" title="Sentencias"><span class="numero">5 </span>Sentencias</a></li>
+<li><a href="http://c.conclase.net/curso/index.php?cap=006#inicio" title="Declaración de variables"><span class="numero">6 </span>Declaración de variables</a></li>
+<li><a href="http://c.conclase.net/curso/index.php?cap=007#inicio" title="Normas para la notación"><span class="numero">7 </span>Notación</a></li>
+<li><a href="http://c.conclase.net/curso/index.php?cap=008#inicio" title="Cadenas de caracteres"><span class="numero">8 </span>Cadenas de caracteres</a></li>
+<li><a href="http://c.conclase.net/curso/index.php?cap=009#inicio" title="Conversión de tipos"><span class="numero">9 </span>Conversión de tipos</a></li>
+<li><a href="http://c.conclase.net/curso/index.php?cap=010#inicio" title="Tipos de variables II: Arrays"><span class="numero">10 </span>Variables II: Arrays</a></li>
+<li><a href="http://c.conclase.net/curso/index.php?cap=011#inicio" title="Tipos de objetos III: Estructuras"><span class="numero">11 </span>Objetos III: Estructuras</a></li>
+<li><a href="http://c.conclase.net/curso/index.php?cap=012#inicio" title="Tipos de objetos IV: Punteros 1"><span class="numero">12 </span>Objetos IV: Punteros 1</a></li>
+<li><a href="http://c.conclase.net/curso/index.php?cap=013#inicio" title="Operadores II: Más operadores"><span class="numero">13 </span>Operadores II</a></li>
+<li><a href="http://c.conclase.net/curso/index.php?cap=014#inicio" title="Operadores III: Precedencia"><span class="numero">14 </span>Oper III: Precedencia</a></li>
+<li><a href="http://c.conclase.net/curso/index.php?cap=015#inicio" title="Funciones II: Parámetros por valor y por referencia"><span class="numero">15 </span>Funcs II: valor y referencia</a></li>
+<li><a href="http://c.conclase.net/curso/index.php?cap=016#inicio" title="Tipos de variables V: Uniones"><span class="numero">16 </span>Variables V: Uniones</a></li>
+<li><a href="http://c.conclase.net/curso/index.php?cap=017#inicio" title="Tipos de variables VI: Punteros 2"><span class="numero">17 </span>Variables VI: Punteros 2</a></li>
+<li><a href="http://c.conclase.net/curso/index.php?cap=018#inicio" title="Operadores IV: Más operadores "><span class="numero">18 </span>Operadores IV</a></li>
+<li><a href="http://c.conclase.net/curso/index.php?cap=019#inicio" title="Definición de tipos, tipos derivados"><span class="numero">19 </span>Definición de tipos</a></li>
+<li><a href="http://c.conclase.net/curso/index.php?cap=020#inicio" title="Funciones III: más cosas"><span class="numero">20 </span>Funciones III: más cosas</a></li>
+<li><a href="http://c.conclase.net/curso/index.php?cap=021#inicio" title="Funciones IV: Sobrecarga"><span class="numero">21 </span>Funciones IV: Sobrecarga</a></li>
+<li><a href="http://c.conclase.net/curso/index.php?cap=022#inicio" title="Operadores V: Operadores sobrecargados"><span class="numero">22 </span>Operadores V: Sobrecarga</a></li>
+<li><a href="http://c.conclase.net/curso/index.php?cap=023#inicio" title="El preprocesador"><span class="numero">23 </span>El preprocesador</a></li>
+<li><a href="http://c.conclase.net/curso/index.php?cap=024#inicio" title="Funciones V: Recursividad"><span class="numero">24 </span>Funciones V: Recursividad</a></li>
+<li><a href="http://c.conclase.net/curso/index.php?cap=025#inicio" title="Variables VII: Tipos de almacenamiento"><span class="numero">25 </span>Vbls VII: Almacenamiento</a></li>
+<li><a href="http://c.conclase.net/curso/index.php?cap=026#inicio" title="Espacios con nombre"><span class="numero">26 </span>Espacios con nombre</a></li>
+<li><a href="http://c.conclase.net/curso/index.php?cap=027#inicio" title="Clases I: definiciones"><span class="numero">27 </span>Clases I: definiciones</a></li>
+<li><a href="./Curso de C++ - Declaración de una clase_files/Curso de C++ - Declaración de una clase.htm" title="Declaración de una clase"><span class="numero">28 </span>Declaración de una clase</a>
+<ul> <!-- Niv0 -->
+<li><a href="http://c.conclase.net/curso/index.php?cap=028#CLA_ACCESO" title="Especificadores de acceso">Especificadores de acceso</a>
+<ul> <!-- Niv1 -->
+<li><a href="http://c.conclase.net/curso/index.php?cap=028#CLA_private" title="Acceso privado, private">Acceso privado</a></li>
+<li><a href="http://c.conclase.net/curso/index.php?cap=028#CLA_public" title="Acceso público, public">Acceso público</a></li>
+<li><a href="http://c.conclase.net/curso/index.php?cap=028#CLA_protected" title="Acceso protegido, protected">Acceso protegido</a></li>
+</ul><!-- Niv2 -->
+</li>
+<li><a href="http://c.conclase.net/curso/index.php?cap=028#CLA_reservadas" title="Palabras reservadas usadas en este capítulo">Palabras reservadas 28</a></li>
+</ul><!-- Niv1 -->
+</li>
+<li><a href="http://c.conclase.net/curso/index.php?cap=029#inicio" title="Constructores"><span class="numero">29 </span>Constructores</a></li>
+<li><a href="http://c.conclase.net/curso/index.php?cap=030#inicio" title="Destructores"><span class="numero">30 </span>Destructores</a></li>
+<li><a href="http://c.conclase.net/curso/index.php?cap=031#inicio" title="El puntero this"><span class="numero">31 </span>El puntero this</a></li>
+<li><a href="http://c.conclase.net/curso/index.php?cap=032#inicio" title="Sistema de protección"><span class="numero">32 </span>Sistema de protección</a></li>
+<li><a href="http://c.conclase.net/curso/index.php?cap=033#inicio" title="Modificadores para miembros"><span class="numero">33 </span>Modificadores</a></li>
+<li><a href="http://c.conclase.net/curso/index.php?cap=034#inicio" title="Más sobre las funciones"><span class="numero">34 </span>Más sobre las funciones</a></li>
+<li><a href="http://c.conclase.net/curso/index.php?cap=035#inicio" title="Operadores sobrecargados"><span class="numero">35 </span>Operadores sobrecargados</a></li>
+<li><a href="http://c.conclase.net/curso/index.php?cap=036#inicio" title="Herencia"><span class="numero">36 </span>Herencia</a></li>
+<li><a href="http://c.conclase.net/curso/index.php?cap=037#inicio" title="Funciones virtuales"><span class="numero">37 </span>Funciones virtuales</a></li>
+<li><a href="http://c.conclase.net/curso/index.php?cap=038#inicio" title="Derivación múltiple"><span class="numero">38 </span>Derivación múltiple</a></li>
+<li><a href="http://c.conclase.net/curso/index.php?cap=039#inicio" title="Trabajar con ficheros"><span class="numero">39 </span>Trabajar con ficheros</a></li>
+<li><a href="http://c.conclase.net/curso/index.php?cap=040#inicio" title="Plantillas"><span class="numero">40 </span>Plantillas</a></li>
+<li><a href="http://c.conclase.net/curso/index.php?cap=041#inicio" title="Punteros a miembros de clases o estructuras"><span class="numero">41 </span>Punteros a miembros</a></li>
+<li><a href="http://c.conclase.net/curso/index.php?cap=042#inicio" title="Castings en C++"><span class="numero">42 </span>Castings en C++</a></li>
+<li><a href="http://c.conclase.net/curso/index.php?cap=043#inicio" title="Manejo de excepciones"><span class="numero">43 </span>Manejo de excepciones</a></li>
+<li><a href="http://c.conclase.net/curso/index.php?cap=900#inicio" title="Codificación ASCII"><span class="numero">A </span>Codificación ASCII</a></li>
+<li><a href="http://c.conclase.net/curso/index.php?cap=901#inicio" title="Palabras reservadas"><span class="numero">B </span>Palabras reservadas</a></li>
+<li><a href="http://c.conclase.net/curso/index.php?cap=902#inicio" title="Bibliotecas estándar"><span class="numero">C </span>Bibliotecas estándar</a></li>
+<li><a href="http://c.conclase.net/curso/index.php?cap=903#inicio" title="Trigrafos y símbolos alternativos"><span class="numero">D </span>Trigrafos y símbolos alt.</a></li>
+<li><a href="http://c.conclase.net/curso/index.php?cap=904#inicio" title="Streams"><span class="numero">E </span>Streams</a></li>
+</ul> <!-- capítulos -->
+</div>
+</div> <!-- izquierda -->
+<div id="derecha">
+<a name="inicio"></a>
+<div class="texto">
+<h1>28 Declaración de una clase</h1>
+<div class="titulo_flecha"><a href="./Curso de C++ - Declaración de una clase_files/Curso de C++ - Declaración de una clase.htm">^</a></div>
+
+<p>Ahora va a empezar un pequeño bombardeo de nuevas palabras reservadas 
+  de C++, pero no te asustes, no es tan complicado como parece.</p>
+<p>La primera palabra que aparece es lógicamente <b>class</b> que sirve para definir 
+  una clase y para declarar objetos de esa clase. Su uso es parecido a la ya conocida <b>struct</b>:</p>
+<pre class="sintaxis"><b>class</b> &lt;identificador de clase&gt; [&lt;:lista de clases base&gt;] {
+   &lt;lista de miembros&gt;
+} [&lt;lista de identificadores de objetos&gt;]; </pre>
+<p>La lista de clases base se usa para derivar clases, de momento no le prestes 
+  demasiada atención, ya que por ahora sólo declararemos clases 
+  base.</p>
+<p>La lista de miembros será en general una lista de funciones y datos.</p>
+<p>Los datos se declaran del mismo modo en que lo hacíamos hasta ahora, 
+  salvo que no pueden ser inicializados, recuerda que estamos hablando de declaraciones 
+  de clases y no de definiciones de objetos. En el siguiente capítulo veremos 
+  el modo de inicializar las variables de un objeto. </p>
+<p>Las funciones pueden ser simplemente declaraciones de prototipos, que se deben 
+  definir aparte de la clase pueden ser también definiciones.</p>
+<p>Cuando se definen fuera de la clase se debe usar el operador de ámbito 
+  "::".</p>
+<p>Lo veremos mucho mejor con un ejemplo.</p>
+<pre class="ejemplo"><span class="prp">#include</span> &lt;iostream&gt; 
+<span class="cpp">using</span> <span class="cpp">namespace</span> std;
+ 
+<span class="cpp">class</span> pareja {
+   <span class="cpp">private</span>:
+      // Datos miembro de la clase "pareja"
+      <span class="cpp">int</span> a, b; 
+   <span class="cpp">public</span>:
+      // Funciones miembro de la clase "pareja"
+      <span class="cpp">void</span> Lee(<span class="cpp">int</span> &amp;a2, <span class="cpp">int</span> &amp;b2);
+      <span class="cpp">void</span> Guarda(<span class="cpp">int</span> a2, <span class="cpp">int</span> b2) {
+         a = a2;
+         b = b2;
+      }
+};
+
+<span class="cpp">void</span> pareja::Lee(<span class="cpp">int</span> &amp;a2, <span class="cpp">int</span> &amp;b2) {
+   a2 = a;
+   b2 = b;
+}
+
+<span class="cpp">int</span> main() {
+   pareja par1;
+   <span class="cpp">int</span> x, y;
+   
+   par1.Guarda(12, 32);
+   par1.Lee(x, y);
+   cout &lt;&lt; "Valor de par1.a: " &lt;&lt; x &lt;&lt; endl;
+   cout &lt;&lt; "Valor de par1.b: " &lt;&lt; y &lt;&lt; endl;
+
+   <span class="cpp">return</span> 0;
+}
+</pre>
+
+<p>Nuestra clase "pareja" tiene dos miembros de tipo de datos: a y b.</p>
+<p>Y dos funciones, una para leer esos valores y otra para modificarlos. </p>
+<p>En el caso de la función "Lee" la hemos declarado en el interior 
+  de la clase y definido fuera, observa que en el exterior de la declaración 
+  de la clase tenemos que usar la expresión:</p>
+<pre class="ejemplo"><span class="cpp">void</span> pareja::Lee(<span class="cpp">int</span> &amp;a2, <span class="cpp">int</span> &amp;b2)
+</pre>
+
+<p>Para que quede claro que nos referimos a la función "Lee" de la clase "pareja". Ten en 
+	cuenta que pueden existir otras clases que tengan funciones con el mismo nombre, y 
+	también que si no especificamos que estamos definiendo una función de la clase 
+	"pareja", en realidad estaremos definiendo una función corriente.</p>
+<p>En el caso de la función "Guarda" la hemos definido en el 
+  interior de la propia clase. Esto lo haremos sólo cuando la definición 
+  sea muy simple, ya que dificulta la lectura y comprensión del programa.</p>
+<p>Además, las funciones definidas de este modo serán tratadas como 
+  <b>inline</b>, y esto sólo es recomendable para funciones cortas, ya que, 
+  (como recordarás), en estas funciones se inserta el código cada vez que 
+  son llamadas.</p>
+<a name="CLA_ACCESO"></a></div>
+<div class="texto">
+<h2>Especificadores de acceso</h2>
+<div class="titulo_flecha"><a href="./Curso de C++ - Declaración de una clase_files/Curso de C++ - Declaración de una clase.htm">^</a></div>
+
+<p>Dentro de la lista de miembros, cada miembro puede tener diferentes niveles 
+  de acceso.</p>
+<p>En nuestro ejemplo hemos usado dos de esos niveles, el privado y el público, 
+  aunque hay más.</p>
+<pre class="sintaxis"><b>class</b> &lt;identificador de clase&gt; {
+  <b>public</b>:
+   &lt;lista de miembros&gt;
+  <b>private</b>:
+   &lt;lista de miembros&gt;
+  <b>protected</b>:
+   &lt;lista de miembros&gt;
+};</pre>
+<a name="CLA_private"></a></div>
+<div class="texto">
+<h3>Acceso privado, private</h3>
+
+<p>Los miembros privados de una clase sólo son accesibles por los propios 
+  miembros de la clase y en general por objetos de la misma clase, pero no desde 
+  funciones externas o desde funciones de clases derivadas.</p>
+<a name="CLA_public"></a></div>
+<div class="texto">
+<h3>Acceso público, public</h3>
+
+<p>Cualquier miembro público de una clase es accesible desde cualquier 
+  parte donde sea accesible el propio objeto.</p>
+<a name="CLA_protected"></a></div>
+<div class="texto">
+<h3>Acceso protegido, protected</h3>
+
+<p>Con respecto a las funciones externas, es equivalente al acceso privado, pero 
+  con respecto a las clases derivadas se comporta como público.</p>
+<p>Cada una de éstas palabras, seguidas de ":", da comienzo a 
+  una sección, que terminará cuando se inicie la sección 
+  siguiente o cuando termine la declaración de la clase. Es posible tener 
+  varias secciones de cada tipo dentro de una clase.</p>
+<p>Si no se especifica nada, por defecto, los miembros de una clase son 
+  privados.</p>
+<a name="CLA_reservadas"></a></div>
+<div class="texto">
+<h2>Palabras reservadas usadas en este capítulo</h2>
+<div class="titulo_flecha"><a href="./Curso de C++ - Declaración de una clase_files/Curso de C++ - Declaración de una clase.htm">^</a></div>
+
+<p><b>class</b>, <b>private</b>, <b>protected</b> y <b>public</b>.</p>
+</div>
+<div class="texto">
+<h3>Comentarios de los usuarios (1)</h3>
+
+<div id="autor"><b>Ruben</b><br>2010-04-17 12:07:30</div>
+<div id="usertxt"><p>¿Se prodria poner algun ejercicio de clases? osea, para entender mejor el tema.</p>
+<p> Hasta ahora con los problemas de los temas anteriores todo llegaba a entenderse mejor, y ayudaba mucho a la memoria (eran mas facil de recordarlos) llevar a la practica lo aprendido.</p></div>
+</div>
+</div>
+</div>
+<div id="pie">
+<p id="copyright">© Enero de 2001, Salvador Pozo, <a href="mailto:salvador@conclase.net">salvador@conclase.net</a></p>
+</div>
+
+
+<div class="SkipThisFixedPosition top-iframe-wrapper" style="width: 100%; height: 34px; position: fixed; top: 0px !important; left: 0px; z-index: 99997; "><iframe style="width:100%;height:34px;top:0px;left:0px;" src="./Curso de C++ - Declaración de una clase_files/container.htm" scrolling="no" class="toolbarContainer" frameborder="0px" id="CWTBiframe0"></iframe></div><div id="-chrome-auto-translate-plugin-dialog" style="opacity: 1 !important; background-image: initial !important; background-attachment: initial !important; background-origin: initial !important; background-clip: initial !important; background-color: transparent !important; padding-top: 0px !important; padding-right: 0px !important; padding-bottom: 0px !important; padding-left: 0px !important; margin-top: 0px !important; margin-right: 0px !important; margin-bottom: 0px !important; margin-left: 0px !important; position: absolute !important; top: 0px; left: 0px; overflow-x: visible !important; overflow-y: visible !important; z-index: 999999 !important; text-align: left !important; display: none; background-position: initial initial !important; background-repeat: initial initial !important; "><div style="max-width: 300px !important;color: #fafafa !important;opacity: 0.8 !important;border-color: #000000 !important;border-width: 0px !important;-webkit-border-radius: 10px !important;background-color: #363636 !important;font-size: 16px !important;padding: 8px !important;overflow: visible !important;background-image: -webkit-gradient(linear, left top, right bottom, color-stop(0%, #000), color-stop(50%, #363636), color-stop(100%, #000));z-index: 999999 !important;text-align: left  !important;"><div class="translate"></div><div class="additional"></div></div><img src="./Curso de C++ - Declaración de una clase_files/small-logo.png" onclick="document.location.href=&#39;http://translate.google.com/&#39;;" style="position: absolute !important; z-index: -1 !important; right: 1px !important; top: -20px !important; cursor: pointer !important;-webkit-border-radius: 20px; background-color: rgba(200, 200, 200, 0.3) !important; padding: 3px 5px 0 !important; margin: 0 !important;"></div><div id="mainContainer_CTID"><div class="fixedDiv SkipThisFixedPosition UrlGadgetsDiv" style="position: fixed; left: 0px; top: 34px !important; z-index: 2147483640; "></div><div class="fixedDiv SkipThisFixedPosition GeneralGadgetsDiv" style="position: fixed; left: 0px; top: 34px !important; z-index: 2147483640; width: 100%; "></div></div></body><style type="text/css" id="CWToolbarStyle">html { padding-top: 34px !important;}</style></html>

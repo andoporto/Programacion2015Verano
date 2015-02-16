@@ -1,0 +1,285 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0052)http://c.conclase.net/curso/index.php?cap=030#inicio -->
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="es"><head><meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<meta name="description" content="Cursos de C++, POO y programación Windows, API32, CSS, con lista de correo asociada.">
+<meta name="keywords" content="C, C++, C/C++, curso, programación, POO, lista, correo, windows, tutorial, programas, API32, CSS">
+<title>Curso de C++ - Destructores</title>
+
+<link rel="StyleSheet" href="./Curso de C++ - Destructores_files/conclase.css.php" title="Estilo con Clase" media="Screen" type="text/css">
+<link rel="stylesheet" href="./Curso de C++ - Destructores_files/barras.css.php" title="Estilo con Clase" media="screen" type="text/css">
+<link rel="alternate" type="application/atom+xml" title="C con Clase RSS" href="http://c.conclase.net/include/conclase_rss.php">
+<link rel="shortcut icon" href="http://c.conclase.net/include/favicon.ico">
+<script id="__isTpiViewExists"></script><link rel="stylesheet" type="text/css" href="chrome-extension://noebaifjopccondbkcieccphcpijhdne/css/about.css"></head>
+
+<body style="background-position: 0% 34px; " class="backgroundPositionTuned">
+   <div id="headerHolder">
+	<div id="header">
+<div id="subtitulo">&nbsp;C++ con Clase&nbsp;</div>
+<div id="sombra">Curso de C++</div>
+<div id="titulo">Curso de C++</div>
+<div id="estilo">
+<form action="http://c.conclase.net/curso/index.php?ext=estilo&cap=030" method="post">
+<label for="estilo">Estilo:</label>
+<select name="nombre">
+<option value="1">Esmeralda</option>
+<option value="2" selected="selected">Normal</option>
+<option value="3">estilo3</option>
+<option value="4">estilo4</option>
+<option value="5">estilo5</option>
+<option value="6">estilo6</option>
+<option value="7">estilo7</option>
+<option value="8">estilo8</option>
+<option value="9">estilo9</option>
+<option value="10">estilo10</option>
+<option value="13">B/W</option>
+<option value="14">rgb</option>
+<option value="15">Estilo 11</option>
+</select>
+<input type="submit" name="Submit" value="Activar">
+</form>
+</div>
+<div id="visitas"><img src="./Curso de C++ - Destructores_files/contador.php" alt="0006114091"><br>Visitas desde 2000-09-09
+<br><a href="http://c.conclase.net/?id=usrs"><img src="./Curso de C++ - Destructores_files/contador(1).php" alt="0118" border="0"></a><br>Usuarios en línea</div>
+		<div id="navigation">
+			<ul id="tabs">
+				<li id="tab01" class="taboff"><a href="http://conclase.net/" title="Página de entrada">Con Clase</a></li>
+				<li id="tab02" class="tabon"><a href="http://c.conclase.net/" title="C ++ con Clase">C++</a></li>
+				<li id="tab03" class="taboff"><a href="http://winapi.conclase.net/" title="Win API 32 con Clase">Win API 32</a></li>
+				<li id="tab04" class="taboff"><a href="http://html.conclase.net/" title="HTML y CSS con Clase">HTML y CSS</a></li>
+				<li id="tab05" class="taboff"><a href="http://graficos.conclase.net/" title="Gráficos con Clase">Gráficos</a></li>
+				<li id="tab06" class="taboff"><a href="http://mysql.conclase.net/" title="MySQL con Clase">MySQL</a></li>
+				<li id="tab07" class="taboff"><a href="http://articulos.conclase.net/" title="Artículos con Clase">Artículos</a></li>
+				<li id="tab08" class="taboff"><a href="http://listas.conclase.net/" title="Listas de correo con Clase">Listas</a></li>
+			</ul>
+		</div>
+	</div>
+</div>
+		<div id="navigationBarra">
+			<ul id="tabsBarraC">
+          <li id="tabBarra01"><a href="http://c.conclase.net/curso/index.php?cap=029#inicio" title="Cap ant">&lt;&lt;</a></li>
+          <li id="tabBarra02"><a href="http://c.conclase.net/curso/index.php?cap=029#inicio" title="Pág ant">&lt;</a></li>
+          <li id="tabBarra03"><a href="http://c.conclase.net/curso/index.php?cap=031#inicio" title="Pág sig">&gt;</a></li>
+          <li id="tabBarra04"><a href="http://c.conclase.net/curso/index.php?cap=031#inicio" title="Cap sig">&gt;&gt;</a></li>
+			</ul>
+			<ul id="tabsBarraL">
+          <li id="tabBarra05"><a href="http://c.conclase.net/curso/#inicio" title="Curso">Curso</a></li>
+          <li id="tabBarra06"><a href="http://c.conclase.net/?id=listacorreo#inicio" title="Preguntas">Info</a></li>
+          <li id="tabBarra07"><a href="http://c.conclase.net/librerias/#inicio" title="Bibliotecas ANSI C">Bibliotecas</a></li>
+          <li id="tabBarra08"><a href="http://c.conclase.net/curso/?cap=tabla#inicio" title="Tabla de contenido">Tabla</a></li>
+          <li id="tabBarra09"><a href="http://c.conclase.net/curso/?ext=comentario&cap=030#inicio" title="Insertar comentario">Comentario</a></li>
+			</ul>
+		</div>
+<div id="cuerpo">
+<!-- Parte izquierda -->
+<div id="izquierda">
+<!-- Menú -->
+<div id="menu">
+<ul> <!-- capítulos -->
+<li><a href="http://c.conclase.net/curso/index.php?cap=000#inicio" title="Introducción"><span class="numero">&nbsp;</span>Introducción</a></li>
+<li><a href="http://c.conclase.net/curso/index.php?cap=001#inicio" title="Toma de contacto"><span class="numero">1 </span>Toma de contacto</a></li>
+<li><a href="http://c.conclase.net/curso/index.php?cap=002#inicio" title="Tipos de variables I "><span class="numero">2 </span>Tipos de variables I </a></li>
+<li><a href="http://c.conclase.net/curso/index.php?cap=003#inicio" title="Funciones I: Declaración y definición"><span class="numero">3 </span>Funciones I</a></li>
+<li><a href="http://c.conclase.net/curso/index.php?cap=004#inicio" title="Operadores I"><span class="numero">4 </span>Operadores I</a></li>
+<li><a href="http://c.conclase.net/curso/index.php?cap=005#inicio" title="Sentencias"><span class="numero">5 </span>Sentencias</a></li>
+<li><a href="http://c.conclase.net/curso/index.php?cap=006#inicio" title="Declaración de variables"><span class="numero">6 </span>Declaración de variables</a></li>
+<li><a href="http://c.conclase.net/curso/index.php?cap=007#inicio" title="Normas para la notación"><span class="numero">7 </span>Notación</a></li>
+<li><a href="http://c.conclase.net/curso/index.php?cap=008#inicio" title="Cadenas de caracteres"><span class="numero">8 </span>Cadenas de caracteres</a></li>
+<li><a href="http://c.conclase.net/curso/index.php?cap=009#inicio" title="Conversión de tipos"><span class="numero">9 </span>Conversión de tipos</a></li>
+<li><a href="http://c.conclase.net/curso/index.php?cap=010#inicio" title="Tipos de variables II: Arrays"><span class="numero">10 </span>Variables II: Arrays</a></li>
+<li><a href="http://c.conclase.net/curso/index.php?cap=011#inicio" title="Tipos de objetos III: Estructuras"><span class="numero">11 </span>Objetos III: Estructuras</a></li>
+<li><a href="http://c.conclase.net/curso/index.php?cap=012#inicio" title="Tipos de objetos IV: Punteros 1"><span class="numero">12 </span>Objetos IV: Punteros 1</a></li>
+<li><a href="http://c.conclase.net/curso/index.php?cap=013#inicio" title="Operadores II: Más operadores"><span class="numero">13 </span>Operadores II</a></li>
+<li><a href="http://c.conclase.net/curso/index.php?cap=014#inicio" title="Operadores III: Precedencia"><span class="numero">14 </span>Oper III: Precedencia</a></li>
+<li><a href="http://c.conclase.net/curso/index.php?cap=015#inicio" title="Funciones II: Parámetros por valor y por referencia"><span class="numero">15 </span>Funcs II: valor y referencia</a></li>
+<li><a href="http://c.conclase.net/curso/index.php?cap=016#inicio" title="Tipos de variables V: Uniones"><span class="numero">16 </span>Variables V: Uniones</a></li>
+<li><a href="http://c.conclase.net/curso/index.php?cap=017#inicio" title="Tipos de variables VI: Punteros 2"><span class="numero">17 </span>Variables VI: Punteros 2</a></li>
+<li><a href="http://c.conclase.net/curso/index.php?cap=018#inicio" title="Operadores IV: Más operadores "><span class="numero">18 </span>Operadores IV</a></li>
+<li><a href="http://c.conclase.net/curso/index.php?cap=019#inicio" title="Definición de tipos, tipos derivados"><span class="numero">19 </span>Definición de tipos</a></li>
+<li><a href="http://c.conclase.net/curso/index.php?cap=020#inicio" title="Funciones III: más cosas"><span class="numero">20 </span>Funciones III: más cosas</a></li>
+<li><a href="http://c.conclase.net/curso/index.php?cap=021#inicio" title="Funciones IV: Sobrecarga"><span class="numero">21 </span>Funciones IV: Sobrecarga</a></li>
+<li><a href="http://c.conclase.net/curso/index.php?cap=022#inicio" title="Operadores V: Operadores sobrecargados"><span class="numero">22 </span>Operadores V: Sobrecarga</a></li>
+<li><a href="http://c.conclase.net/curso/index.php?cap=023#inicio" title="El preprocesador"><span class="numero">23 </span>El preprocesador</a></li>
+<li><a href="http://c.conclase.net/curso/index.php?cap=024#inicio" title="Funciones V: Recursividad"><span class="numero">24 </span>Funciones V: Recursividad</a></li>
+<li><a href="http://c.conclase.net/curso/index.php?cap=025#inicio" title="Variables VII: Tipos de almacenamiento"><span class="numero">25 </span>Vbls VII: Almacenamiento</a></li>
+<li><a href="http://c.conclase.net/curso/index.php?cap=026#inicio" title="Espacios con nombre"><span class="numero">26 </span>Espacios con nombre</a></li>
+<li><a href="http://c.conclase.net/curso/index.php?cap=027#inicio" title="Clases I: definiciones"><span class="numero">27 </span>Clases I: definiciones</a></li>
+<li><a href="http://c.conclase.net/curso/index.php?cap=028#inicio" title="Declaración de una clase"><span class="numero">28 </span>Declaración de una clase</a></li>
+<li><a href="http://c.conclase.net/curso/index.php?cap=029#inicio" title="Constructores"><span class="numero">29 </span>Constructores</a></li>
+<li><a href="./Curso de C++ - Destructores_files/Curso de C++ - Destructores.htm" title="Destructores"><span class="numero">30 </span>Destructores</a></li>
+<li><a href="http://c.conclase.net/curso/index.php?cap=031#inicio" title="El puntero this"><span class="numero">31 </span>El puntero this</a></li>
+<li><a href="http://c.conclase.net/curso/index.php?cap=032#inicio" title="Sistema de protección"><span class="numero">32 </span>Sistema de protección</a></li>
+<li><a href="http://c.conclase.net/curso/index.php?cap=033#inicio" title="Modificadores para miembros"><span class="numero">33 </span>Modificadores</a></li>
+<li><a href="http://c.conclase.net/curso/index.php?cap=034#inicio" title="Más sobre las funciones"><span class="numero">34 </span>Más sobre las funciones</a></li>
+<li><a href="http://c.conclase.net/curso/index.php?cap=035#inicio" title="Operadores sobrecargados"><span class="numero">35 </span>Operadores sobrecargados</a></li>
+<li><a href="http://c.conclase.net/curso/index.php?cap=036#inicio" title="Herencia"><span class="numero">36 </span>Herencia</a></li>
+<li><a href="http://c.conclase.net/curso/index.php?cap=037#inicio" title="Funciones virtuales"><span class="numero">37 </span>Funciones virtuales</a></li>
+<li><a href="http://c.conclase.net/curso/index.php?cap=038#inicio" title="Derivación múltiple"><span class="numero">38 </span>Derivación múltiple</a></li>
+<li><a href="http://c.conclase.net/curso/index.php?cap=039#inicio" title="Trabajar con ficheros"><span class="numero">39 </span>Trabajar con ficheros</a></li>
+<li><a href="http://c.conclase.net/curso/index.php?cap=040#inicio" title="Plantillas"><span class="numero">40 </span>Plantillas</a></li>
+<li><a href="http://c.conclase.net/curso/index.php?cap=041#inicio" title="Punteros a miembros de clases o estructuras"><span class="numero">41 </span>Punteros a miembros</a></li>
+<li><a href="http://c.conclase.net/curso/index.php?cap=042#inicio" title="Castings en C++"><span class="numero">42 </span>Castings en C++</a></li>
+<li><a href="http://c.conclase.net/curso/index.php?cap=043#inicio" title="Manejo de excepciones"><span class="numero">43 </span>Manejo de excepciones</a></li>
+<li><a href="http://c.conclase.net/curso/index.php?cap=900#inicio" title="Codificación ASCII"><span class="numero">A </span>Codificación ASCII</a></li>
+<li><a href="http://c.conclase.net/curso/index.php?cap=901#inicio" title="Palabras reservadas"><span class="numero">B </span>Palabras reservadas</a></li>
+<li><a href="http://c.conclase.net/curso/index.php?cap=902#inicio" title="Bibliotecas estándar"><span class="numero">C </span>Bibliotecas estándar</a></li>
+<li><a href="http://c.conclase.net/curso/index.php?cap=903#inicio" title="Trigrafos y símbolos alternativos"><span class="numero">D </span>Trigrafos y símbolos alt.</a></li>
+<li><a href="http://c.conclase.net/curso/index.php?cap=904#inicio" title="Streams"><span class="numero">E </span>Streams</a></li>
+</ul> <!-- capítulos -->
+</div>
+</div> <!-- izquierda -->
+<div id="derecha">
+<a name="inicio"></a>
+<div class="texto">
+<h1>30 Destructores</h1>
+<div class="titulo_flecha"><a href="./Curso de C++ - Destructores_files/Curso de C++ - Destructores.htm">^</a></div>
+
+<p>Los destructores son funciones miembro especiales que sirven para eliminar 
+  un objeto de una determinada clase. El destructor realizará procesos necesarios
+  cuando un objeto termine su ámbito temporal, por ejemplo liberando la memoria 
+  dinámica utilizada por dicho objeto o liberando recursos usados, como
+  ficheros, dispositivos, etc.</p>
+<p>Al igual que los constructores, los destructores también tienen algunas 
+  características especiales:</p>
+<ul>
+	<li>También tienen el mismo nombre que la clase a la que pertenecen, pero
+		tienen el símbolo ˜ delante.</li>
+	<li>No tienen tipo de retorno, y por lo tanto no retornan ningún valor.</li>
+	<li>No tienen parámetros.</li>
+	<li>No pueden ser heredados.</li>
+	<li>Deben ser públicos, no tendría ningún sentido declarar un 
+		destructor como privado, ya que siempre se usan desde el exterior de la 
+		clase, ni tampoco como protegido, ya que no puede ser heredado.</li>
+	<li>No pueden ser sobrecargados, lo cual es lógico, puesto que no tienen
+	  valor de retorno ni parámetros, no hay posibilidad de sobrecarga.</li>
+</ul>
+<p>Cuando se define un destructor para una clase, éste es llamado automáticamente 
+  cuando se abandona el ámbito en el que fue definido. Esto es así 
+  salvo cuando el objeto fue creado dinámicamente con el operador new, 
+  ya que en ese caso, cuando es necesario eliminarlo, hay que hacerlo explícitamente 
+  usando el operador delete.</p>
+<p>En general, será necesario definir un destructor cuando nuestra clase 
+  tenga datos miembro de tipo puntero, aunque esto no es una regla estricta.</p>
+<p>Ejemplo:</p>
+<pre class="ejemplo"><span class="prp">#include</span> &lt;iostream&gt;
+<span class="prp">#include</span> &lt;cstring&gt;
+<span class="cpp">using</span> <span class="cpp">namespace</span> std;
+ 
+<span class="cpp">class</span> cadena {
+  <span class="cpp">public</span>:
+   cadena();        // Constructor por defecto
+   cadena(<span class="cpp">const</span> <span class="cpp">char</span> *c); // Constructor desde cadena c
+   cadena(<span class="cpp">int</span> n);   // Constructor de cadena de n caracteres
+   cadena(<span class="cpp">const</span> cadena &amp;);   // Constructor copia
+   ~cadena();       // Destructor
+
+   <span class="cpp">void</span> Asignar(<span class="cpp">const</span> <span class="cpp">char</span> *dest);
+   <span class="cpp">char</span> *Leer(<span class="cpp">char</span> *c);
+  <span class="cpp">private</span>:
+   <span class="cpp">char</span> *cad;       // Puntero a <span class="cpp">char</span>: cadena de caracteres
+};
+ 
+cadena::cadena() : cad(NULL) {}
+ 
+cadena::cadena(<span class="cpp">const</span> <span class="cpp">char</span> *c) {
+   cad = <span class="cpp">new</span> <span class="cpp">char</span>[strlen(c)+1];// Reserva memoria para cadena
+   <a href="http://c.conclase.net/librerias/?ansifun=strcpy">strcpy</a>(cad, c);             // Almacena la cadena
+}
+ 
+cadena::cadena(<span class="cpp">int</span> n) {
+   cad = <span class="cpp">new</span> <span class="cpp">char</span>[n+1]; // Reserva memoria para n caracteres
+   cad[0] = 0;          // Cadena vacía   
+}
+ 
+cadena::cadena(<span class="cpp">const</span> cadena &amp;Cad) {
+   // Reservamos memoria para la nueva y la almacenamos
+   cad = <span class="cpp">new</span> <span class="cpp">char</span>[strlen(Cad.cad)+1];
+   // Reserva memoria para cadena
+   <a href="http://c.conclase.net/librerias/?ansifun=strcpy">strcpy</a>(cad, Cad.cad);             // Almacena la cadena
+} 
+ 
+cadena::~cadena() {
+   <span class="cpp">delete</span>[] cad;        // Libera la memoria reservada a cad
+}
+ 
+<span class="cpp">void</span> cadena::Asignar(<span class="cpp">const</span> <span class="cpp">char</span> *dest) {
+   // Eliminamos la cadena actual:
+   <span class="cpp">delete</span>[] cad;
+   // Reservamos memoria para la nueva y la almacenamos
+   cad = <span class="cpp">new</span> <span class="cpp">char</span>[strlen(dest)+1]; 
+   // Reserva memoria para la cadena
+   <a href="http://c.conclase.net/librerias/?ansifun=strcpy">strcpy</a>(cad, dest);              // Almacena la cadena
+}
+ 
+<span class="cpp">char</span> *cadena::Leer(<span class="cpp">char</span> *c) {
+   <a href="http://c.conclase.net/librerias/?ansifun=strcpy">strcpy</a>(c, cad);
+   <span class="cpp">return</span> c;
+}
+
+<span class="cpp">int</span> main() {
+   cadena Cadena1("Cadena de prueba");
+   cadena Cadena2(Cadena1);   // Cadena2 es copia de Cadena1
+   cadena *Cadena3;           // Cadena3 es un puntero
+   <span class="cpp">char</span> c[256];
+   
+   // Modificamos Cadena1:
+   Cadena1.Asignar("Otra cadena diferente"); 
+   // Creamos Cadena3:
+   Cadena3 = <span class="cpp">new</span> cadena("Cadena de prueba nº 3");
+   
+   // Ver resultados
+   cout &lt;&lt; "Cadena 1: " &lt;&lt; Cadena1.Leer(c) &lt;&lt; endl;
+   cout &lt;&lt; "Cadena 2: " &lt;&lt; Cadena2.Leer(c) &lt;&lt; endl;
+   cout &lt;&lt; "Cadena 3: " &lt;&lt; Cadena3-&gt;Leer(c) &lt;&lt; endl;
+   
+   <span class="cpp">delete</span> Cadena3;  // Destruir Cadena3. 
+   // Cadena1 y Cadena2 se destruyen automáticamente
+
+   <span class="cpp">return</span> 0;
+}
+</pre>
+
+<p class="codepad">Ejecutar este código en <a href="http://codepad.org/LxzfMFv8" target="_blank">codepad</a>.</p>
+<p>Voy a hacer varias observaciones sobre este programa:</p>
+<ol>
+  <li><p>Hemos implementado un constructor copia. Esto es necesario porque una 
+    simple asignación entre los datos miembro "cad" no copiaría la cadena de 
+    un objeto a otro, sino únicamente los punteros.</p>
+<p>Por ejemplo, si definimos el constructor copia como:</p>
+<pre class="ejemplo">cadena::cadena(<span class="cpp">const</span> cadena &amp;Cad) {
+   cad = Cad.cad;
+}
+</pre>
+
+<p>en lugar de cómo lo hacemos en el ejemplo, lo que estaríamos copiando sería el valor 
+  del puntero cad, con lo cual, ambos punteros estarían apuntando a la misma 
+  posición de memoria. Esto es desastroso, y no simplemente porque los 
+  cambios en una cadena afectan a las dos, sino porque al abandonar el 
+  programa se intenta liberar automáticamente la misma memoria dos veces.</p>
+<p>Lo que realmente pretendemos al asignar cadenas es crear una nueva cadena que 
+  sea copia de la cadena antigua. Esto es lo que hacemos con el constructor 
+  copia del ejemplo, y es lo que haremos más adelante, y con más elegancia, sobrecargando 
+  el operador de asignación.</p>
+<p>La definición del constructor copia que hemos creado en este último ejemplo
+  es la equivalente a la del constructor copia por defecto.</p></li>
+  <li>La función Leer, que usamos para obtener el valor de la cadena almacenada, 
+    no devuelve un puntero a la cadena, sino una copia de la cadena. Esto está 
+    de acuerdo con las recomendaciones sobre la programación orientada 
+    a objetos, que aconsejan que los datos almacenados en una clase no sean accesibles 
+    directamente desde fuera de ella, sino únicamente a través de 
+    las funciones creadas al efecto. Además, el miembro cad es privado, 
+    y por lo tanto debe ser inaccesible desde fuera de la clase. Más adelante veremos
+    cómo se puede conseguir mantener la seguridad sin crear más datos miembro.</li>
+  <li>La Cadena3 debe ser destruida implícitamente usando el operador <b>delete</b>, 
+    que a su vez invoca al destructor de la clase. Esto es así porque Cadena3 
+    es un puntero, y la memoria que se usa en el objeto al que apunta no 
+    se libera automáticamente al destruirse el puntero Cadena3.</li>
+</ol>
+</div>
+</div>
+</div>
+<div id="pie">
+<p id="copyright">© Enero de 2001, Salvador Pozo, <a href="mailto:salvador@conclase.net">salvador@conclase.net</a></p>
+</div>
+
+
+<div class="SkipThisFixedPosition top-iframe-wrapper" style="width: 100%; height: 34px; position: fixed; top: 0px !important; left: 0px; z-index: 99997; "><iframe style="width:100%;height:34px;top:0px;left:0px;" src="./Curso de C++ - Destructores_files/container.htm" scrolling="no" class="toolbarContainer" frameborder="0px" id="CWTBiframe0"></iframe></div><div id="-chrome-auto-translate-plugin-dialog" style="opacity: 1 !important; background-image: initial !important; background-attachment: initial !important; background-origin: initial !important; background-clip: initial !important; background-color: transparent !important; padding-top: 0px !important; padding-right: 0px !important; padding-bottom: 0px !important; padding-left: 0px !important; margin-top: 0px !important; margin-right: 0px !important; margin-bottom: 0px !important; margin-left: 0px !important; position: absolute !important; top: 0px; left: 0px; overflow-x: visible !important; overflow-y: visible !important; z-index: 999999 !important; text-align: left !important; display: none; background-position: initial initial !important; background-repeat: initial initial !important; "><div style="max-width: 300px !important;color: #fafafa !important;opacity: 0.8 !important;border-color: #000000 !important;border-width: 0px !important;-webkit-border-radius: 10px !important;background-color: #363636 !important;font-size: 16px !important;padding: 8px !important;overflow: visible !important;background-image: -webkit-gradient(linear, left top, right bottom, color-stop(0%, #000), color-stop(50%, #363636), color-stop(100%, #000));z-index: 999999 !important;text-align: left  !important;"><div class="translate"></div><div class="additional"></div></div><img src="./Curso de C++ - Destructores_files/small-logo.png" onclick="document.location.href=&#39;http://translate.google.com/&#39;;" style="position: absolute !important; z-index: -1 !important; right: 1px !important; top: -20px !important; cursor: pointer !important;-webkit-border-radius: 20px; background-color: rgba(200, 200, 200, 0.3) !important; padding: 3px 5px 0 !important; margin: 0 !important;"></div><div id="mainContainer_CTID"><div class="fixedDiv SkipThisFixedPosition UrlGadgetsDiv" style="position: fixed; left: 0px; top: 34px !important; z-index: 2147483640; "></div><div class="fixedDiv SkipThisFixedPosition GeneralGadgetsDiv" style="position: fixed; left: 0px; top: 34px !important; z-index: 2147483640; width: 100%; "></div></div></body><style type="text/css" id="CWToolbarStyle">html { padding-top: 34px !important;}</style></html>

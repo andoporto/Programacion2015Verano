@@ -1,0 +1,221 @@
+
+<!-- saved from url=(0202)http://www.4shared.com/conduit/index.jsp#&uid=129018176144925716&isExtension=1&top=33&left=358&width=79&height=22&isHtmlCom=true&mainFrameUrl=http%3A//c.conclase.net/curso/index.php%3Fcap%3D027%23inicio -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <script type="text/javascript" src="global.js"></script>
+
+  <script type="text/javascript" src="BrowserCompApi.aspx"></script>
+  <script type="text/javascript" src="jquery-1.4.4.min.js"></script>
+  <script type="text/javascript" src="Events.js"></script>
+
+  <script type="text/javascript">
+    document.domain='4shared.com';
+  </script>
+
+  <style type="text/css">
+    <!--
+    body {
+      margin: 0;
+      padding: 0;
+      font: normal 11px Tahoma, Verdana, Arial;
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+      background-color: threedface;
+    }
+
+    button {
+      font-size: 11px
+    }
+
+    .but {
+      background: url(http://static.4shared.com/images/butCond.gif) no-repeat;
+      width: 71px;
+      height: 18px;
+      font: bold 11px/17px Arial, Tahoma, Verdana;
+      color: #006699;
+      text-align: center;
+    }
+
+    .file, .upload {
+      font-size: 13px;
+      font-family: Arial, Tahoma, Verdana, sans-serif
+    }
+
+    .fileselectcontainer {
+      position: relative;
+      overflow: hidden;
+      padding: 1px 4px;
+      width: 79px
+    }
+
+    .fileselectcontainer .file {
+      width: 500px;
+      height: 100px;
+      position: absolute;
+      z-index: 4;
+      font-size: 50px;
+      right: -10px;
+      top: -20px;
+      cursor: pointer;
+      -moz-opacity: 0;
+      filter: alpha(opacity = 0);
+      opacity: 0;
+    }
+    -->
+  </style>
+<script id="__isTpiViewExists"></script></head>
+<body class="null">
+
+<div id="upload">
+  <div id="uploadTR" class="changeDir hideLong">
+    <form action="http://dc271.4shared.com/main/upload.jsp?sId=nBrkoVnWCPtSO9sL&fau=1&ausk=nBrkoVnWCPtSO9sL&conduit=1&uploadSystemCode=7" name="uploadForm" enctype="multipart/form-data" method="post">
+      <input type="hidden" name="mainDC" value="329">
+      <input type="hidden" name="conduit" value="1">
+
+      <div class="fileselectcontainer">
+        <input type="file" size="10" class="file" multiple="multiple" onchange="uploadModule.start()" id="tfid0" name="tfff0">
+        <div class="but" id="button">Upload files</div>
+      </div>
+    </form>
+  </div>
+</div>
+
+<div id="progress" style="font: normal 9px/10px Tahoma; text-align: center; width: 100%; height: 11px; display: none;">
+  <span id="percent">0</span>%&nbsp;<a href="http://www.4shared.com/conduit/index.jsp#" onclick="uploadModule.cancel(); return false;" target="_top">Stop</a>
+</div>
+<iframe name="conduitUploadFrame" style="display: none;"></iframe>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript" src="plupload.js"></script>
+<script type="text/javascript" src="plupload.silverlight.js"></script>
+<script type="text/javascript" src="plupload.flash.js"></script>
+
+<script type="text/javascript" src="UploadModule.js"></script>
+<script type="text/javascript" src="Jsonp.js"></script>
+
+<script type="text/javascript">
+  UploadModule.build = function(options) {
+    var defaultSettings = {
+      
+      upload_form: $('form[name=uploadForm]'),
+      
+      url: 'http://dc271.4shared.com/main/upload.jsp?sId=nBrkoVnWCPtSO9sL&fau=1&ausk=nBrkoVnWCPtSO9sL',
+      
+      uploadHandler: UploadModule.getAnonUploadHandler(),
+      
+      progressMeter: UploadModule.ProgressMeter,
+      progress_meter_url : 'http://dc271.4shared.com/servlet/ProgressStatus?dcID=271&sId=nBrkoVnWCPtSO9sL&fau=1&ausk=nBrkoVnWCPtSO9sL',
+      static_resources_root: 'http://static.4shared.com',
+      max_file_size: 524288000,
+      max_change_dc_attempts: 0,
+
+      i18n: {
+        file_size_exceeded: 'Error: filesize > [maxFileSize] MB',
+        some_files_size_exceeded: 'Some files limit exceeded. Continue without them ?',
+        no_files_selected: 'You didn\'t select any file to upload yet.',
+        file_already_in_proccess: 'This file already in proccess.',
+        your_browser_not_supported: 'Your browser does not support the upload file size of 4 GB and above',
+        you_can_resume_upload: 'Your transfer have been canceled. You can resume the upload with the current percentage',
+        not_enough_free_space: 'Not enough free space',
+        you_cannot_upload: 'You cannot upload these files with current browser. Please try desktop version.'
+      },
+      resumable: {
+        section_size: 524288,
+        max_simultaneous_files: 1,
+        max_threads: 1,
+        user_agents: 'chrome,firefox'
+      }
+    }
+    options = $.extend(true, defaultSettings, options)
+    return new UploadModule(options)
+  }
+</script>
+
+<script type="text/javascript">
+  function massAction() {
+    //location.reload()
+  }
+
+  function readablizeBytes(bytes) {
+    if (bytes == 0) return '0 bytes'
+
+    var str = ['bytes', 'KB', 'MB', 'GB', 'TB', 'PB']
+    var index = Math.floor(Math.log(bytes) / Math.log(1024))
+    bytes = (bytes / Math.pow(1024, Math.floor(index)))
+    bytes = (index > 1) ? bytes.toFixed(1) : Math.floor(bytes)
+
+    return bytes + " " + str[index]
+  }
+
+  function conduitUploadDone() {
+    
+    
+    OpenGadget('http://www.4shared.com/conduit/anonUploadResult.jsp?sId=nBrkoVnWCPtSO9sL&&fau=1&ausk=nBrkoVnWCPtSO9sL', 400, 200, 'openposition=center');
+    
+  }
+
+  var uploadModule = UploadModule.build({
+    targetFrame: 'conduitUploadFrame',
+
+    onStart: function() {
+      $('#upload').hide()
+      $('#progress').show()
+    },
+
+    onProgress: function(progress) {
+      var percent = Math.floor((progress.loaded / progress.total) * 100)
+      var minimumProgressBarWidth = 1
+      $('#progresswidth').attr('width', Math.max(percent, minimumProgressBarWidth) + "%")
+      $('#percent').html(percent)
+      $('#sizeOk').html(readablizeBytes(progress.loaded))
+    },
+
+    onError: function(error) {
+      alert(error.errorMessage);
+    },
+
+    onComplete: function(data) {
+      conduitUploadDone()
+    },
+
+    onCancel: function() {
+
+    },
+
+    onCleanup: function() {
+      $('#progresswidth').attr('width', "1%")
+      $('#percent').html('0')
+
+      $('#progress').hide()
+      $('#upload').show()
+    }
+  })
+
+  if ("multiple" in document.createElement("input")) {
+    document.getElementById("button").innerHTML = "Upload files"
+  }
+</script>
+
+
+
+
+
+
+
+<div id="isChromeWebToolbarDiv" style="display:none"></div><div id="returnOnLoadData" style="display:none">{"toolbarName":"4shared.com","returnedSearchTerm":null,"returnedToolbarInfo":"1","CTID":"CT2233703","version":"2.3.1.12","originalCTID":"CT2233703","downloadPageUrl":"http://4sharedcom.OurToolbar.com/","searchEngineString":"http://search.conduit.com/Results.aspx?q={0}&amp;ctid=CT2233703&amp;octid=CT2233703&amp;SearchSource=1","selectedTabTitle":"Curso de C++ - Clases I: definiciones","selectedTabUrl":"http://c.conclase.net/curso/index.php?cap=027#inicio"}</div><div id="returnOnLoadData" style="display:none"></div></body></html>
