@@ -1,0 +1,27 @@
+# depslib dependency file v1.0
+1423594326 source:g:\programacion\practica\tp2ej13actualizasueldosegunpromedio\main.c
+	<stdio.h>
+	<stdlib.h>
+	"libtp2ej13.h"
+
+1423593978 g:\programacion\practica\tp2ej13actualizasueldosegunpromedio\libtp2ej13.h
+
+1423594130 source:g:\programacion\practica\tp2ej13actualizasueldosegunpromedio\libtp2ej13.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"libtp2ej13.h"
+
+1423675713 source:c:\programación 2015 verano\tp 1\tp2ej13actualizasueldosegunpromedio\tp2ej13actualizasueldosegunpromedio\main.c
+	<stdio.h>
+	<stdlib.h>
+	"libtp2ej13.h"
+
+1423678945 c:\programación 2015 verano\tp 1\tp2ej13actualizasueldosegunpromedio\tp2ej13actualizasueldosegunpromedio\libtp2ej13.h
+
+1423680470 source:c:\programación 2015 verano\tp 1\tp2ej13actualizasueldosegunpromedio\tp2ej13actualizasueldosegunpromedio\libtp2ej13.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"libtp2ej13.h"
+
