@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1322177386 source:c:\programacion 2\escritorio manuales de la web\cplus\sobrecargar el operador de asignacion\main.cpp
+	<iostream>
+	<string.h>
+	<stdlib.h>
+

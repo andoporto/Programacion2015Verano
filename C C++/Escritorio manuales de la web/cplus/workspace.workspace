@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_workspace_file>
+	<Workspace title="Workspace">
+		<Project filename="herencia de constructores/herencia de constructores.cbp" />
+		<Project filename="funciones virtuales/funciones virtuales.cbp" />
+		<Project filename="destructores virtuales/destructores virtuales.cbp" active="1" />
+	</Workspace>
+</CodeBlocks_workspace_file>

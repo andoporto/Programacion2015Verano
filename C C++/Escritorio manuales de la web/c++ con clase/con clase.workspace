@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_workspace_file>
+	<Workspace title="Workspace">
+		<Project filename="clase basica\clase basica.cbp" />
+		<Project filename="clase con constructor\clase con constructor.cbp" />
+		<Project filename="clase con constructor por defecto\clase con constructor por defecto.cbp" />
+		<Project filename="inicializacion de objetos\inicializacion de objetos.cbp" />
+		<Project filename="asignacion\asignacion.cbp" />
+		<Project filename="Constructor copia\Constructor copia.cbp" />
+		<Project filename="sobrecarga de constructores\sobrecarga de constructores.cbp" />
+		<Project filename="destructor\destructor.cbp" />
+		<Project filename="this pareja\this pareja.cbp" />
+		<Project filename="constructores con valores por defecto\constructores con valores por defecto.cbp" />
+		<Project filename="this\this.cbp" />
+		<Project filename="this como struct\this como struct.cbp" />
+		<Project filename="fraccion\fraccion.cbp" />
+		<Project filename="sumar fraccion\sumar fraccion.cbp" />
+		<Project filename="clase tonta\clase tonta.cbp" />
+		<Project filename="amigas externas\amigas externas.cbp" />
+		<Project filename="amigas en otras clases\amigas en otras clases.cbp" />
+		<Project filename="clases amigas\clases amigas.cbp" />
+		<Project filename="funciones miembro constantes\funciones miembro constantes.cbp" />
+		<Project filename="valores de retorno constantes\valores de retorno constantes.cbp" />
+		<Project filename="miembros static\miembros static.cbp" />
+		<Project filename="static numero\static numero.cbp" />
+		<Project filename="..\cplus\funciones sobrecargadas\funciones sobrecargadas.cbp" />
+		<Project filename="..\cplus\Funciones con argumentos con valores por defecto\Funciones con argumentos con valores por defecto.cbp" />
+		<Project filename="..\cplus\sobrecarga de operadores binarios\sobrecarga de operadores binarios.cbp" />
+		<Project filename="..\cplus\sobrecargar el operador de asignacion\sobrecargar el operador de asignacion.cbp" />
+		<Project filename="..\cplus\sobrecargar el  operador de asignacion 2\sobrecargar el  operador de asignacion 2.cbp" />
+		<Project filename="..\cplus\operadores binarios\operadores binarios.cbp" />
+		<Project filename="..\cplus\sobrecarga de clases con punteros\sobrecarga de clases con punteros.cbp" />
+		<Project filename="operadores unitarios\operadores unitarios.cbp" />
+		<Project filename="Operadores de conversión de tipo\Operadores de conversión de tipo.cbp" />
+		<Project filename="constructores de clases derivadas\constructores de clases derivadas.cbp" />
+		<Project filename="clases base en constructores\clases base en constructores.cbp" />
+		<Project filename="objetos miembros de clases\objetos miembros de clases.cbp" />
+		<Project filename="Destructores de clases derivadas\Destructores de clases derivadas.cbp" />
+		<Project filename="Funciones virtuales\Funciones virtuales.cbp" />
+		<Project filename="Superposición y sobrecarga\Superposición y sobrecarga.cbp" />
+		<Project filename="polimorfismo\polimorfismo.cbp" />
+		<Project filename="polimorfismo con funciones virtuales\polimorfismo con funciones virtuales.cbp" />
+		<Project filename="función virtual clonar\función virtual clonar.cbp" />
+		<Project filename="Clases abstractas\Clases abstractas.cbp" active="1" />
+	</Workspace>
+</CodeBlocks_workspace_file>

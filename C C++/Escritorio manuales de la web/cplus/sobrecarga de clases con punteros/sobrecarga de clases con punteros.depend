@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1322180802 source:c:\documents and settings\lab3\escritorio\ultimov2\escritorio manuales de la web\cplus\sobrecarga de clases con punteros\main.cpp
+	<iostream>
+	<string.h>
+	<stdlib.h>
+
