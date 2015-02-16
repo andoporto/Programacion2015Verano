@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1324741277 source:c:\prog 2 adicionales 2011\e7\main.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+
